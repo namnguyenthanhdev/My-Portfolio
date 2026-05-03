@@ -1,0 +1,77 @@
+{
+  "site": {
+    "title": "Frontend-Entwickler | Produktentwicklung",
+    "description": "Frontend-Entwickler mit 3+ Jahren Erfahrung beim Aufbau und der Skalierung internationaler Produktplattformen. Spezialisiert auf React, Next.js, TypeScript und Hochleistungs-Datenrendering."
+  },
+  "nav": {
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "products": "Produkte",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "headline": "Produkt-Frontend-Ingenieur",
+    "bio": [
+      "Mit 3+ Jahren Erfahrung in Produktunternehmen baue und pflege ich große Plattformen, die echte Nutzer weltweit bedienen. Mein Fokus liegt darauf, pixel-perfekte Interfaces zu liefern und gleichzeitig sauberen, SOLIDen Code zu schreiben, der skaliert.",
+      "Ich spezialisiere mich auf React, Next.js, TypeScript und Performance-Optimierung — von virtualisierten Tabellen mit 50.000+ Zeilen bis hin zu Echtzeit-Präsenzsystemen, die gleichzeitige Sessions verfolgen.",
+      "Solide Grundlage in Design-Systemen, Barrierefreiheit, SEO-Best-Practices und Internationalisierung. Ich überbrücke die Lücke zwischen Design-Absicht und Engineering-Realität."
+    ]
+  },
+  "stats": {
+    "rowsVirtualized": "Virtualisierte Zeilen",
+    "renderSpeed": "Render-Geschwindigkeitsverbesserung",
+    "recordsExported": "Exportierte Datensätze",
+    "paginated": "Paginierte Datensätze",
+    "userStates": "Verfolgte Benutzerzustände",
+    "manualWork": "Manuelle Arbeit reduziert"
+  },
+  "projects": {
+    "1": {
+      "title": "FTN — Globale Ticket-Wiederverkaufsplattform",
+      "description": "Ein 10 Jahre altes Produktionssystem umgewandelt. Verschachtelte virtualisierte Tabellen mit 50.000+ Zeilen entwickelt (850ms → 220ms, 74% Verbesserung). Cursor-basierte Paginierung für 10.000+ Datensätze und Echtzeit-Präsenzverfolgung via SocketIO implementiert.",
+      "category": "Enterprise"
+    },
+    "2": {
+      "title": "Gigsberg — Ticket-Verkaufs-CRM",
+      "description": "Mehrsprachiges, multi-standortiges CRM. Massen-Übersetzungstool mit JSON-Import/Export entwickelt, Zahlungsapproval-Flows automatisiert (60% weniger manuelle Arbeit) und anpassbare Verkaufs-Workflows für regionale Märkte.",
+      "category": "CRM"
+    },
+    "3": {
+      "title": "DOL Grammar — E-Learning-Plattform",
+      "description": "Interaktive Lernplattform mit MCQs, Drag-and-Drop-Übungen, Karteikarten und Rich-Text-Antworten. Sofort-Ergebnis-Engine und anpassbare Lernwerkzeuge für IELTS/TOEIC-Vorbereitung entwickelt.",
+      "category": "Bildung"
+    },
+    "4": {
+      "title": "LMS TOEIC — Bildungs-CMS",
+      "description": "Vollständiges CMS & LMS für TOEIC. Schüler- & Lehrerverwaltung, Unterrichtsprotokolle, formularbasierte Dateneingabe, SEO-optimierte Landingpages. In enger Zusammenarbeit mit UI/UX-Teams via Figma gewartet.",
+      "category": "Bildung"
+    },
+    "5": {
+      "title": "LMS IELTS — Bildungsplattform",
+      "description": "Wartung von CMS & LMS für IELTS-Vorbereitung. Interaktive Bewertungslogik, Schülerverwaltung, Unterrichtsprotokolle und formularbasierte Dateneingabe für Aufzeichnungen und Feedback.",
+      "category": "Bildung"
+    },
+    "6": {
+      "title": "Win Wine — Mobile Web-App",
+      "description": "Responsive Mobile-First-Webanwendung für Android. Adaptives Design mit RESTful-API-Integration, Redux-Statusmanagement und Deployment-Konfiguration auf der Android-Plattform.",
+      "category": "Mobil"
+    }
+  },
+  "testimonials": {
+    "1": {
+      "name": "Tung Nguyen",
+      "role": "5 Jahre Senior bei DOL English, Mentor",
+      "text": "Nam ist ein engagierter Entwickler, der durchweg qualitativ hochwertige Arbeit liefert. Seine Liebe zum Detail und Problemlösungsfähigkeiten machen ihn zu einem unverzichtbaren Teammitglied."
+    },
+    "2": {
+      "name": "Nam Le",
+      "role": "Senior Software Engineer bei Grab, Mentor",
+      "text": "Tiefes Verständnis der SOLID-Prinzipien und moderner Frontend-Praktiken. Nam bringt sowohl technische Exzellenz als auch eine kollaborative Denkweise in jedes Projekt ein."
+    },
+    "3": {
+      "name": "Intertu Education",
+      "role": "Arbeitgeber",
+      "text": "Nam hat komplexe Informatikthemen effektiv internationalen Oberschülern beigebracht und dabei tiefes Wissen und hervorragende Kommunikationsfähigkeiten demonstriert."
+    }
+  }
+}

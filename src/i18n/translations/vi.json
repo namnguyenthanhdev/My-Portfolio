@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "about": "Giới thiệu",
+    "skills": "Kỹ năng",
+    "products": "Sản phẩm",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "experience": "3+ Năm Kinh Nghiệm",
+    "tagline": "Xây dựng và mở rộng nền tảng sản phẩm quốc tế với mã nguồn sạch, dễ bảo trì",
+    "viewProducts": "Xem Sản Phẩm",
+    "contactMe": "Liên Hệ Tôi",
+    "scroll": "Cuộn"
+  },
+  "about": {
+    "title": "Giới Thiệu",
+    "email": "Email",
+    "phone": "Điện thoại",
+    "location": "Vị trí",
+    "testimonialsTitle": "Nhận Xét"
+  },
+  "stats": {
+    "title": "Con Số Ấn Tượng",
+    "subtitle": "Chỉ số thực tế từ các hệ thống production tôi đã xây dựng và tối ưu"
+  },
+  "skills": {
+    "title": "Chuyên Môn Kỹ Thuật",
+    "subtitle": "Công nghệ và công cụ tôi sử dụng hàng ngày trong môi trường production",
+    "expert": "Chuyên gia",
+    "proficient": "Thành thạo",
+    "familiar": "Quen thuộc"
+  },
+  "projects": {
+    "title": "Sản Phẩm Tôi Đã Xây Dựng",
+    "subtitle": "Nền tảng sản phẩm quốc tế phục vụ người dùng thực tế ở quy mô lớn",
+    "code": "Mã nguồn",
+    "live": "Trực tuyến",
+    "all": "Tất cả"
+  },
+  "contact": {
+    "title": "Cùng Hợp Tác",
+    "subtitle": "Bạn có ý tưởng dự án? Hãy cùng tạo nên điều tuyệt vời.",
+    "email": "Email",
+    "phone": "Điện thoại",
+    "location": "Vị trí",
+    "formName": "Tên",
+    "formEmail": "Email",
+    "formSubject": "Chủ đề",
+    "formMessage": "Tin nhắn",
+    "namePlaceholder": "Tên của bạn",
+    "emailPlaceholder": "email@cua-ban.com",
+    "subjectPlaceholder": "Nội dung về vấn đề gì?",
+    "messagePlaceholder": "Chia sẻ về dự án của bạn...",
+    "sending": "Đang gửi...",
+    "sendMessage": "Gửi Tin Nhắn"
+  },
+  "footer": {
+    "tagline": "Xây dựng nền tảng sản phẩm mở rộng",
+    "imageCredits": "Nguồn ảnh (Unsplash)",
+    "madeWith": "Tạo bởi",
+    "by": "bởi",
+    "credits": {
+      "hero": "Ảnh đại diện",
+      "ftn": "Bảng điều khiển FTN",
+      "gigsberg": "Gigsberg",
+      "dolGrammar": "Ngữ pháp DOL",
+      "lmsToeic": "LMS TOEIC",
+      "lmsIelts": "LMS IELTS",
+      "winWine": "Win Wine",
+      "gallery": "Ảnh thư viện",
+      "testimonials": "Nhận xét"
+    }
+  },
+  "common": {
+    "hireMe": "Thuê tôi",
+    "darkMode": "Chuyển sang chế độ tối",
+    "lightMode": "Chuyển sang chế độ sáng",
+    "contentNotAvailable": "Nội dung không khả dụng",
+    "findMeOn": "Tìm tôi trên"
+  }
+}

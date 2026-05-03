@@ -1,0 +1,77 @@
+{
+  "site": {
+    "title": "前端開發員 | 產品工程",
+    "description": "前端開發員，擁有3年以上構建同擴展國際化產品平台嘅經驗。專精於 React、Next.js、TypeScript 同高性能數據渲染。"
+  },
+  "nav": {
+    "about": "關於我",
+    "skills": "技能",
+    "products": "產品",
+    "contact": "聯絡"
+  },
+  "about": {
+    "headline": "產品前端工程師",
+    "bio": [
+      "喺產品公司擁有3年以上經驗，我構建同維護服務全球真實用戶嘅大規模平台。我嘅重點係交付像素級完美嘅界面，同時保持乾淨、SOLID 同可擴展嘅代碼。",
+      "我專精於 React、Next.js、TypeScript 同性能優化 — 從處理 50,000+ 行嘅虛擬化表格到追蹤並發會話嘅實時存在系統。",
+      "擁有設計系統、無障礙訪問、SEO 最佳實踐同國際化嘅堅實基礎。我係設計意圖同工程現實之間嘅橋樑。"
+    ]
+  },
+  "stats": {
+    "rowsVirtualized": "虛擬化行數",
+    "renderSpeed": "渲染速度改善",
+    "recordsExported": "導出記錄數",
+    "paginated": "分頁記錄數",
+    "userStates": "追蹤用戶狀態",
+    "manualWork": "減少手動工作"
+  },
+  "projects": {
+    "1": {
+      "title": "FTN — 全球門票轉售平台",
+      "description": "轉換咗一個10年嘅生產系統。開發咗渲染50,000+行嘅嵌套虛擬化表格（850ms → 220ms，改善74%）。實現咗基於cursor嘅分頁（10,000+記錄）同透過SocketIO嘅實時存在追蹤。",
+      "category": "企業"
+    },
+    "2": {
+      "title": "Gigsberg — 門票銷售CRM",
+      "description": "多語言、多地點CRM。構建咗帶JSON導入/導出嘅批量翻譯工具，自動化付款審批流程減少60%手動工作，同可自定義嘅銷售流程以適應區域市場。",
+      "category": "CRM"
+    },
+    "3": {
+      "title": "DOL Grammar — 電子學習平台",
+      "description": "帶選擇題、拖曳練習、閃卡同富文本回應嘅互動學習平台。為IELTS/TOEIC備考構建咗即時結果引擎同可自定義嘅學習工具。",
+      "category": "教育"
+    },
+    "4": {
+      "title": "LMS TOEIC — 教育CMS",
+      "description": "TOEIC嘅完整CMS同LMS。學生同教師管理、教學日誌、表單數據輸入、SEO優化著陸頁。透過Figma同UI/UX團隊緊密合作進行維護。",
+      "category": "教育"
+    },
+    "5": {
+      "title": "LMS IELTS — 教育平台",
+      "description": "IELTS備考CMS同LMS嘅維護。互動評估邏輯、學生管理、教學日誌同表單數據輸入用於記錄同反饋。",
+      "category": "教育"
+    },
+    "6": {
+      "title": "Win Wine — 移動Web應用",
+      "description": "Android嘅響應式移動優先Web應用程序。帶RESTful API集成、Redux狀態管理同Android平台部署配置嘅自適應設計。",
+      "category": "移動"
+    }
+  },
+  "testimonials": {
+    "1": {
+      "name": "Tung Nguyen",
+      "role": "DOL English 5年資深，導師",
+      "text": "Nam 係一個好專注嘅開發者， consistently 交付高質量嘅工作。佢對細節嘅關注同解決問題嘅能力令佢成為團隊中不可或缺嘅成員。"
+    },
+    "2": {
+      "name": "Nam Le",
+      "role": "Grab 資深軟件工程師，導師",
+      "text": "對 SOLID 原則同現代前端實踐有深入理解。Nam 將技術卓越同合作精神帶入每一個項目。"
+    },
+    "3": {
+      "name": "Intertu Education",
+      "role": "僱主",
+      "text": "Nam 有效地向國際高中生教授複雜嘅電腦科學主題，展示出深厚嘅知識同優秀嘅溝通能力。"
+    }
+  }
+}

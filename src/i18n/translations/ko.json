@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "about": "소개",
+    "skills": "기술",
+    "products": "제품",
+    "contact": "연락처"
+  },
+  "hero": {
+    "experience": "3년 이상의 경험",
+    "tagline": "깨끗하고 유지보수가 가능한 코드로 국제 제품 플랫폼을 구축하고 확장합니다",
+    "viewProducts": "제품 보기",
+    "contactMe": "연락하기",
+    "scroll": "스크롤"
+  },
+  "about": {
+    "title": "자기 소개",
+    "email": "이메일",
+    "phone": "전화",
+    "location": "위치",
+    "testimonialsTitle": "평가"
+  },
+  "stats": {
+    "title": "숫자로 보는 실적",
+    "subtitle": "제가 구축하고 최적화한 프로덕션 시스템의 실제 지표"
+  },
+  "skills": {
+    "title": "기술 전문 분야",
+    "subtitle": "프로덕션 환경에서 매일 사용하는 기술과 도구",
+    "expert": "전문가",
+    "proficient": "숙련",
+    "familiar": "익숙"
+  },
+  "projects": {
+    "title": "제가 만든 제품",
+    "subtitle": "대규모 실제 사용자에게 서비스하는 국제 제품 플랫폼",
+    "code": "코드",
+    "live": "라이브",
+    "all": "전체"
+  },
+  "contact": {
+    "title": "함께 일합시다",
+    "subtitle": "프로젝트 아이디어가 있으신가요? 함께 멋진 것을 만들어봅시다.",
+    "email": "이메일",
+    "phone": "전화",
+    "location": "위치",
+    "formName": "이름",
+    "formEmail": "이메일",
+    "formSubject": "주제",
+    "formMessage": "메시지",
+    "namePlaceholder": "귀하의 이름",
+    "emailPlaceholder": "your@email.com",
+    "subjectPlaceholder": "무슨 건인가요?",
+    "messagePlaceholder": "프로젝트에 대해 알려주세요...",
+    "sending": "전송 중...",
+    "sendMessage": "메시지 보내기"
+  },
+  "footer": {
+    "tagline": "확장 가능한 제품 플랫폼 구축",
+    "imageCredits": "이미지 출처 (Unsplash)",
+    "madeWith": "제작",
+    "by": "by",
+    "credits": {
+      "hero": "히어로 사진",
+      "ftn": "FTN 대시보드",
+      "gigsberg": "Gigsberg",
+      "dolGrammar": "DOL 문법",
+      "lmsToeic": "LMS TOEIC",
+      "lmsIelts": "LMS IELTS",
+      "winWine": "Win Wine",
+      "gallery": "갤러리 이미지",
+      "testimonials": "평가"
+    }
+  },
+  "common": {
+    "hireMe": "고용하세요",
+    "darkMode": "다크 모드로 전환",
+    "lightMode": "라이트 모드로 전환",
+    "contentNotAvailable": "콘텐츠를 사용할 수 없습니다",
+    "findMeOn": "여기서 찾기"
+  }
+}

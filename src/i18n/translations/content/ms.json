@@ -1,0 +1,77 @@
+{
+  "site": {
+    "title": "Pembangun Front End | Kejuruteraan Produk",
+    "description": "Pembangun front-end dengan pengalaman 3+ tahun membina dan mengembangkan platform produk antarabangsa. Khusus dalam React, Next.js, TypeScript dan pengoptimuman prestasi."
+  },
+  "nav": {
+    "about": "Tentang",
+    "skills": "Kemahiran",
+    "products": "Produk",
+    "contact": "Hubungi"
+  },
+  "about": {
+    "headline": "Jurutera Front-End Produk",
+    "bio": [
+      "Dengan pengalaman 3+ tahun di syarikat produk, saya membina dan menyelenggara platform berskala besar yang melayani pengguna sebenar di seluruh dunia. Fokus saya adalah menyampaikan antara muka yang sempurna piksel sambil mengekalkan kod yang bersih, SOLID dan boleh diskalakan.",
+      "Saya pakar dalam React, Next.js, TypeScript dan pengoptimuman prestasi — dari jadual tervirtual yang mengendalikan 50,000+ baris hingga sistem kehadiran masa nyata yang menjejak sesi serentak.",
+      "Asas yang kukuh dalam sistem reka bentuk, kebolehcapaian, amalan terbaik SEO dan antarabangsa. Saya merapatkan jurang antara niat reka bentuk dan realiti kejuruteraan."
+    ]
+  },
+  "stats": {
+    "rowsVirtualized": "Baris Divilirtualkan",
+    "renderSpeed": "Penambahbaikan Kelajuan Render",
+    "recordsExported": "Rekod Dieksport",
+    "paginated": "Rekod Dilaman",
+    "userStates": "Keadaan Pengguna Dijejaki",
+    "manualWork": "Kerja Manual Dikurangkan"
+  },
+  "projects": {
+    "1": {
+      "title": "FTN — Platform Jualan Semula Tiket Global",
+      "description": "Menukar sistem pengeluaran 10 tahun. Membina jadual tervirtual bersarang yang merender 50,000+ baris (850ms → 220ms, peningkatan 74%). Melaksanakan pagination berasaskan kursor untuk 10,000+ rekod dan penjejakan kehadiran masa nyata melalui SocketIO.",
+      "category": "Enterprise"
+    },
+    "2": {
+      "title": "Gigsberg — CRM Jualan Tiket",
+      "description": "CRM berbilang bahasa, berbilang lokasi. Membina alat terjemahan pukal dengan import/eksport JSON, mengautomasikan aliran kelulusan pembayaran mengurangkan kerja manual sebanyak 60%, dan aliran kerja jualan yang boleh disesuaikan untuk pasaran serantau.",
+      "category": "CRM"
+    },
+    "3": {
+      "title": "DOL Grammar — Platform E-pembelajaran",
+      "description": "Platform pembelajaran interaktif dengan MCQ, latihan seret-dan-lepas, kad imbas dan respons teks kaya. Membina enjin keputusan serta-merta dan alat pembelajaran yang boleh disesuaikan untuk persediaan IELTS/TOEIC.",
+      "category": "Pendidikan"
+    },
+    "4": {
+      "title": "LMS TOEIC — CMS Pendidikan",
+      "description": "CMS & LMS penuh untuk TOEIC. Pengurusan Pelajar & Guru, Log Pengajaran, Kemasukan Data Berasaskan Borang, halaman pendaratan dioptimumkan SEO. Diselenggara dengan bekerjasama rapat dengan pasukan UI/UX melalui Figma.",
+      "category": "Pendidikan"
+    },
+    "5": {
+      "title": "LMS IELTS — Platform Pendidikan",
+      "description": "Penyelenggaraan CMS & LMS untuk persediaan IELTS. Logik penilaian interaktif, pengurusan pelajar, log pengajaran dan kemasukan data berasaskan borang untuk rekod dan maklum balas.",
+      "category": "Pendidikan"
+    },
+    "6": {
+      "title": "Win Wine — Aplikasi Web Mudah Alih",
+      "description": "Aplikasi web responsif mobile-first untuk Android. Reka bentuk adaptif dengan integrasi RESTful API, pengurusan keadaan Redux dan konfigurasi pelancaran pada platform Android.",
+      "category": "Mudah Alih"
+    }
+  },
+  "testimonials": {
+    "1": {
+      "name": "Tung Nguyen",
+      "role": "5 tahun Senior di DOL English, Mentor",
+      "text": "Nam adalah pemaju yang berdedikasi yang konsisten menghantar kerja berkualiti tinggi. Perhatiannya terhadap perincian dan kemahiran menyelesaikan masalah menjadikannya ahli pasukan yang tidak ternilai."
+    },
+    "2": {
+      "name": "Nam Le",
+      "role": "Senior Software Engineer di Grab, Mentor",
+      "text": "Pemahaman yang kukuh tentang prinsip SOLID dan amalan frontend moden. Nam membawa kecemerlangan teknikal dan minda kolaboratif ke setiap projek."
+    },
+    "3": {
+      "name": "Intertu Education",
+      "role": "Majikan",
+      "text": "Nam berkesan mengajar topik Sains Komputer yang kompleks kepada pelajar sekolah menengah antarabangsa, menunjukkan pengetahuan yang mendalam dan kemahiran komunikasi yang cemerlang."
+    }
+  }
+}

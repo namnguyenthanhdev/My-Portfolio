@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "products": "Produkte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "experience": "3+ Jahre Erfahrung",
+    "tagline": "Internationale Produktplattformen mit sauberem, wartungsfreundlichem Code entwickeln und skalieren",
+    "viewProducts": "Meine Produkte ansehen",
+    "contactMe": "Kontakt aufnehmen",
+    "scroll": "Scrollen"
+  },
+  "about": {
+    "title": "Über mich",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Standort",
+    "testimonialsTitle": "Was andere sagen"
+  },
+  "stats": {
+    "title": "Auswirkungen in Zahlen",
+    "subtitle": "Echte Kennzahlen aus Produktionssystemen, die ich entwickelt und optimiert habe"
+  },
+  "skills": {
+    "title": "Technische Expertise",
+    "subtitle": "Technologien und Tools, die ich täglich in Produktionsumgebungen nutze",
+    "expert": "Experte",
+    "proficient": "Versiert",
+    "familiar": "Vertraut"
+  },
+  "projects": {
+    "title": "Produkte, die ich entwickelt habe",
+    "subtitle": "Internationale Produktplattformen, die echte Nutzer in großem Maßstab bedienen",
+    "code": "Code",
+    "live": "Live",
+    "all": "Alle"
+  },
+  "contact": {
+    "title": "Zusammenarbeiten",
+    "subtitle": "Haben Sie eine Projektidee? Lassen Sie uns gemeinsam etwas Großartiges schaffen.",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Standort",
+    "formName": "Name",
+    "formEmail": "E-Mail",
+    "formSubject": "Betreff",
+    "formMessage": "Nachricht",
+    "namePlaceholder": "Ihr Name",
+    "emailPlaceholder": "ihre@email.com",
+    "subjectPlaceholder": "Worum geht es?",
+    "messagePlaceholder": "Erzählen Sie mir von Ihrem Projekt...",
+    "sending": "Senden...",
+    "sendMessage": "Nachricht senden"
+  },
+  "footer": {
+    "tagline": "Skalierbare Produktplattformen entwickeln",
+    "imageCredits": "Bildnachweise (Unsplash)",
+    "madeWith": "Erstellt mit",
+    "by": "von",
+    "credits": {
+      "hero": "Hero-Foto",
+      "ftn": "FTN Dashboard",
+      "gigsberg": "Gigsberg",
+      "dolGrammar": "DOL Grammatik",
+      "lmsToeic": "LMS TOEIC",
+      "lmsIelts": "LMS IELTS",
+      "winWine": "Win Wine",
+      "gallery": "Galeriebilder",
+      "testimonials": "Bewertungen"
+    }
+  },
+  "common": {
+    "hireMe": "Engagieren Sie mich",
+    "darkMode": "Zum dunklen Modus wechseln",
+    "lightMode": "Zum hellen Modus wechseln",
+    "contentNotAvailable": "Inhalt nicht verfügbar",
+    "findMeOn": "Finden Sie mich auf"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "about": "关于我",
+    "skills": "技能",
+    "products": "产品",
+    "contact": "联系"
+  },
+  "hero": {
+    "experience": "3年以上经验",
+    "tagline": "使用清晰、易维护的代码构建和扩展国际化产品平台",
+    "viewProducts": "查看产品",
+    "contactMe": "联系我",
+    "scroll": "滚动"
+  },
+  "about": {
+    "title": "关于我",
+    "email": "邮箱",
+    "phone": "电话",
+    "location": "位置",
+    "testimonialsTitle": "他人评价"
+  },
+  "stats": {
+    "title": "数字见证",
+    "subtitle": "我构建和优化的生产系统真实指标"
+  },
+  "skills": {
+    "title": "技术专长",
+    "subtitle": "我在生产环境中日常使用的技术和工具",
+    "expert": "专家",
+    "proficient": "熟练",
+    "familiar": "了解"
+  },
+  "projects": {
+    "title": "我开发的产品",
+    "subtitle": "服务大规模真实用户的国际化产品平台",
+    "code": "代码",
+    "live": "在线",
+    "all": "全部"
+  },
+  "contact": {
+    "title": "一起合作",
+    "subtitle": "有项目想法？我们一起创造精彩。",
+    "email": "邮箱",
+    "phone": "电话",
+    "location": "位置",
+    "formName": "姓名",
+    "formEmail": "邮箱",
+    "formSubject": "主题",
+    "formMessage": "留言",
+    "namePlaceholder": "您的姓名",
+    "emailPlaceholder": "your@email.com",
+    "subjectPlaceholder": "关于什么事？",
+    "messagePlaceholder": "谈谈您的项目...",
+    "sending": "发送中...",
+    "sendMessage": "发送留言"
+  },
+  "footer": {
+    "tagline": "构建可扩展的产品平台",
+    "imageCredits": "图片来源（Unsplash）",
+    "madeWith": "制作",
+    "by": "由",
+    "credits": {
+      "hero": "主图",
+      "ftn": "FTN 仪表板",
+      "gigsberg": "Gigsberg",
+      "dolGrammar": "DOL 语法",
+      "lmsToeic": "LMS TOEIC",
+      "lmsIelts": "LMS IELTS",
+      "winWine": "Win Wine",
+      "gallery": "图库图片",
+      "testimonials": "评价"
+    }
+  },
+  "common": {
+    "hireMe": "雇用我",
+    "darkMode": "切换至深色模式",
+    "lightMode": "切换至浅色模式",
+    "contentNotAvailable": "内容不可用",
+    "findMeOn": "在这里找我"
+  }
+}

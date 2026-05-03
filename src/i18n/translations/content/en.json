@@ -1,0 +1,77 @@
+{
+  "site": {
+    "title": "Front End Developer | Product Engineering",
+    "description": "Front-end developer with 3+ years building and scaling international product platforms. Specialized in React, Next.js, TypeScript, and high-performance data rendering."
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "about": {
+    "headline": "Product Front-End Engineer",
+    "bio": [
+      "With 3+ years of experience in product companies, I build and maintain large-scale platforms serving real users worldwide. My focus is on delivering pixel-perfect interfaces while maintaining clean, SOLID code that scales.",
+      "I specialize in React, Next.js, TypeScript, and performance optimization — from virtualized tables handling 50,000+ rows to real-time presence systems tracking concurrent sessions.",
+      "Strong foundation in design systems, accessibility, SEO best practices, and internationalization. I bridge the gap between design intent and engineering reality."
+    ]
+  },
+  "stats": {
+    "rowsVirtualized": "Rows Virtualized",
+    "renderSpeed": "Render Speed Improvement",
+    "recordsExported": "Records Exported",
+    "paginated": "Paginated Records",
+    "userStates": "User States Tracked",
+    "manualWork": "Manual Work Reduced"
+  },
+  "projects": {
+    "1": {
+      "title": "FTN — Global Ticket Resale Platform",
+      "description": "Converted a 10-year production system. Engineered nested virtualized tables rendering 50,000+ rows (850ms → 220ms, 74% improvement). Implemented cursor-based pagination for 10,000+ records and real-time presence tracking via SocketIO.",
+      "category": "Enterprise"
+    },
+    "2": {
+      "title": "Gigsberg — Ticket Sales CRM",
+      "description": "Multi-language, multi-location CRM. Built bulk translation tooling with JSON import/export, automated payment approval flows reducing manual work by 60%, and customizable sales workflows for regional market adaptation.",
+      "category": "CRM"
+    },
+    "3": {
+      "title": "DOL Grammar — E-learning Platform",
+      "description": "Interactive learning platform with MCQs, drag-and-drop exercises, flashcards, and rich-text responses. Built instant results engine and customizable study tools for IELTS/TOEIC preparation.",
+      "category": "Education"
+    },
+    "4": {
+      "title": "LMS TOEIC — Education CMS",
+      "description": "Full CMS & LMS for TOEIC. Student & Teacher Management, Teaching Logs, Form-Based Data Entry, SEO-optimized landing pages. Maintained by collaborating closely with UI/UX teams via Figma.",
+      "category": "Education"
+    },
+    "5": {
+      "title": "LMS IELTS — Education Platform",
+      "description": "Maintenance of CMS & LMS for IELTS preparation. Interactive assessment logic, student management, teaching logs, and form-based data entry for records and feedback.",
+      "category": "Education"
+    },
+    "6": {
+      "title": "Win Wine — Mobile Web App",
+      "description": "Responsive mobile-first web application for Android. Adaptive design with RESTful API integration, Redux state management, and deployment configuration on Android platform.",
+      "category": "Mobile"
+    }
+  },
+  "testimonials": {
+    "1": {
+      "name": "Tung Nguyen",
+      "role": "5-year Senior at DOL English, Mentor",
+      "text": "Nam is a dedicated developer who consistently delivers high-quality work. His attention to detail and problem-solving skills make him an invaluable team member."
+    },
+    "2": {
+      "name": "Nam Le",
+      "role": "Senior Software Engineer at Grab, Mentor",
+      "text": "Strong understanding of SOLID principles and modern frontend practices. Nam brings both technical excellence and a collaborative mindset to every project."
+    },
+    "3": {
+      "name": "Intertu Education",
+      "role": "Employer",
+      "text": "Nam effectively taught complex Computer Science topics to international high-school students, demonstrating deep knowledge and excellent communication skills."
+    }
+  }
+}

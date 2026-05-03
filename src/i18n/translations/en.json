@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "experience": "3+ Years Experience",
+    "tagline": "Building and scaling international product platforms with clean, maintainable code",
+    "viewProducts": "View My Products",
+    "contactMe": "Contact Me",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About Me",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "testimonialsTitle": "What People Say"
+  },
+  "stats": {
+    "title": "Impact by the Numbers",
+    "subtitle": "Real metrics from production systems I've built and optimized"
+  },
+  "skills": {
+    "title": "Technical Expertise",
+    "subtitle": "Technologies and tools I use daily in production environments",
+    "expert": "Expert",
+    "proficient": "Proficient",
+    "familiar": "Familiar"
+  },
+  "projects": {
+    "title": "Products I've Built",
+    "subtitle": "International product platforms serving real users at scale",
+    "code": "Code",
+    "live": "Live",
+    "all": "All"
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Have a project in mind? Let's create something amazing.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "subjectPlaceholder": "What is this about?",
+    "messagePlaceholder": "Tell me about your project...",
+    "sending": "Sending...",
+    "sendMessage": "Send Message"
+  },
+  "footer": {
+    "tagline": "Building scalable product platforms",
+    "imageCredits": "Image Credits (Unsplash)",
+    "madeWith": "Made with",
+    "by": "by",
+    "credits": {
+      "hero": "Hero photo",
+      "ftn": "FTN dashboard",
+      "gigsberg": "Gigsberg",
+      "dolGrammar": "DOL Grammar",
+      "lmsToeic": "LMS TOEIC",
+      "lmsIelts": "LMS IELTS",
+      "winWine": "Win Wine",
+      "gallery": "Gallery images",
+      "testimonials": "Testimonials"
+    }
+  },
+  "common": {
+    "hireMe": "Hire Me",
+    "darkMode": "Switch to dark mode",
+    "lightMode": "Switch to light mode",
+    "contentNotAvailable": "Content not available",
+    "findMeOn": "Find me on"
+  }
+}

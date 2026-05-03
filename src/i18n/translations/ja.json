@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "about": "紹介",
+    "skills": "スキル",
+    "products": "製品",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "experience": "3年以上の経験",
+    "tagline": "クリーンで保守性の高いコードで国際的な製品プラットフォームを構築・スケーリング",
+    "viewProducts": "製品を見る",
+    "contactMe": "お問い合わせ",
+    "scroll": "スクロール"
+  },
+  "about": {
+    "title": "自己紹介",
+    "email": "メール",
+    "phone": "電話",
+    "location": "所在地",
+    "testimonialsTitle": "評価"
+  },
+  "stats": {
+    "title": "数字で見る実績",
+    "subtitle": "私が構築・最適化した本番システムの実績指標"
+  },
+  "skills": {
+    "title": "技術専門分野",
+    "subtitle": "本番環境で毎日使用している技術とツール",
+    "expert": "エキスパート",
+    "proficient": "習熟",
+    "familiar": "知識あり"
+  },
+  "projects": {
+    "title": "私が作った製品",
+    "subtitle": "大規模な実ユーザーにサービス提供する国際的な製品プラットフォーム",
+    "code": "コード",
+    "live": "ライブ",
+    "all": "すべて"
+  },
+  "contact": {
+    "title": "一緒に働きましょう",
+    "subtitle": "プロジェクトのアイデアがありますか？一緒に素晴らしいものを作りましょう。",
+    "email": "メール",
+    "phone": "電話",
+    "location": "所在地",
+    "formName": "名前",
+    "formEmail": "メール",
+    "formSubject": "件名",
+    "formMessage": "メッセージ",
+    "namePlaceholder": "お名前",
+    "emailPlaceholder": "your@email.com",
+    "subjectPlaceholder": "ご用件は何ですか？",
+    "messagePlaceholder": "プロジェクトについて教えてください...",
+    "sending": "送信中...",
+    "sendMessage": "送信する"
+  },
+  "footer": {
+    "tagline": "スケーラブルな製品プラットフォームを構築",
+    "imageCredits": "画像クレジット（Unsplash）",
+    "madeWith": "作成者",
+    "by": "",
+    "credits": {
+      "hero": "ヒーロー写真",
+      "ftn": "FTN ダッシュボード",
+      "gigsberg": "Gigsberg",
+      "dolGrammar": "DOL グラマー",
+      "lmsToeic": "LMS TOEIC",
+      "lmsIelts": "LMS IELTS",
+      "winWine": "Win Wine",
+      "gallery": "ギャラリー画像",
+      "testimonials": "評価"
+    }
+  },
+  "common": {
+    "hireMe": "雇ってください",
+    "darkMode": "ダークモードに切り替え",
+    "lightMode": "ライトモードに切り替え",
+    "contentNotAvailable": "コンテンツは利用できません",
+    "findMeOn": "こちらで探す"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "site": {
+    "title": "Lập Trình Viên Front End | Kỹ Thuật Sản Phẩm",
+    "description": "Lập trình viên front-end với 3+ năm kinh nghiệm xây dựng và mở rộng nền tảng sản phẩm quốc tế. Chuyên về React, Next.js, TypeScript và tối ưu hiệu năng."
+  },
+  "nav": {
+    "about": "Giới thiệu",
+    "skills": "Kỹ năng",
+    "products": "Sản phẩm",
+    "contact": "Liên hệ"
+  },
+  "about": {
+    "headline": "Kỹ Sư Front-End Sản Phẩm",
+    "bio": [
+      "Với 3+ năm kinh nghiệm tại các công ty sản phẩm, tôi xây dựng và duy trì các nền tảng quy mô lớn phục vụ người dùng thực tế trên toàn thế giới. Trọng tâm của tôi là tạo ra giao diện chính xác đến từng pixel đồng thời giữ mã nguồn sạch, SOLID và có thể mở rộng.",
+      "Tôi chuyên về React, Next.js, TypeScript và tối ưu hiệu năng — từ bảng ảo xử lý 50,000+ dòng đến hệ thống theo dõi trạng thái người dùng theo thời gian thực.",
+      "Nền tảng vững chắc về design systems, accessibility, SEO best practices và internationalization. Tôi là cầu nối giữa ý tưởng thiết kế và thực tế kỹ thuật."
+    ]
+  },
+  "stats": {
+    "rowsVirtualized": "Dòng Ảo Hóa",
+    "renderSpeed": "Cải Thiện Tốc Độ Render",
+    "recordsExported": "Bản Ghi Xuất",
+    "paginated": "Bản Ghi Phân Trang",
+    "userStates": "Trạng Thái Người Dùng",
+    "manualWork": "Giảm Công Việc Thủ Công"
+  },
+  "projects": {
+    "1": {
+      "title": "FTN — Nền Tảng Bán Lại Vé Toàn Cầu",
+      "description": "Chuyển đổi hệ thống production 10 năm tuổi. Xây dựng bảng ảo lồng nhau rendering 50,000+ dòng (850ms → 220ms, cải thiện 74%). Triển khai phân trang cursor-based cho 10,000+ bản ghi và theo dõi hiện diện thời gian thực qua SocketIO.",
+      "category": "Doanh nghiệp"
+    },
+    "2": {
+      "title": "Gigsberg — CRM Bán Vé",
+      "description": "CRM đa ngôn ngữ, đa vị trí. Xây dựng công cụ dịch hàng loạt với JSON import/export, tự động hóa luồng phê duyệt thanh toán giảm 60% công việc thủ công, và quy trình bán hàng tùy chỉnh cho từng thị trường khu vực.",
+      "category": "CRM"
+    },
+    "3": {
+      "title": "DOL Grammar — Nền Tảng E-learning",
+      "description": "Nền tảng học tập tương tác với câu hỏi trắc nghiệm, bài tập kéo thả, flashcard và phản hồi rich-text. Xây dựng engine kết quả tức thì và công cụ học tập tùy chỉnh cho luyện thi IELTS/TOEIC.",
+      "category": "Giáo dục"
+    },
+    "4": {
+      "title": "LMS TOEIC — CMS Giáo Dục",
+      "description": "CMS & LMS hoàn chỉnh cho TOEIC. Quản lý học viên & giáo viên, nhật ký giảng dạy, nhập liệu biểu mẫu, landing page tối ưu SEO. Bảo trì bằng cách phối hợp chặt chẽ với đội ngũ UI/UX qua Figma.",
+      "category": "Giáo dục"
+    },
+    "5": {
+      "title": "LMS IELTS — Nền Tảng Giáo Dục",
+      "description": "Bảo trì CMS & LMS cho luyện thi IELTS. Logic đánh giá tương tác, quản lý học viên, nhật ký giảng dạy và nhập liệu biểu mẫu cho hồ sơ và phản hồi.",
+      "category": "Giáo dục"
+    },
+    "6": {
+      "title": "Win Wine — Ứng Dụng Web Di Động",
+      "description": "Ứng dụng web mobile-first cho Android. Thiết kế thích ứng với tích hợp RESTful API, quản lý state Redux và cấu hình triển khai trên nền tảng Android.",
+      "category": "Di động"
+    }
+  },
+  "testimonials": {
+    "1": {
+      "name": "Tung Nguyen",
+      "role": "Senior 5 năm tại DOL English, Mentor",
+      "text": "Nam là một lập trình viên tận tâm, luôn giao việc chất lượng cao. Sự chú ý đến chi tiết và kỹ năng giải quyết vấn đề của bạn ấy khiến Nam trở thành thành viên không thể thiếu trong đội ngũ."
+    },
+    "2": {
+      "name": "Nam Le",
+      "role": "Senior Software Engineer tại Grab, Mentor",
+      "text": "Hiểu biết sâu sắc về nguyên lý SOLID và thực hành frontend hiện đại. Nam mang đến cả sự xuất sắc về kỹ thuật lẫn tinh thần hợp tác trong mọi dự án."
+    },
+    "3": {
+      "name": "Intertu Education",
+      "role": "Nhà tuyển dụng",
+      "text": "Nam đã giảng dạy hiệu quả các chủ đề Khoa học Máy tính phức tạp cho học sinh trung học quốc tế, thể hiện kiến thức sâu rộng và kỹ năng giao tiếp xuất sắc."
+    }
+  }
+}

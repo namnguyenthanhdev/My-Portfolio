@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "about": "Tentang",
+    "skills": "Kemahiran",
+    "products": "Produk",
+    "contact": "Hubungi"
+  },
+  "hero": {
+    "experience": "Pengalaman 3+ Tahun",
+    "tagline": "Membina dan mengembangkan platform produk antarabangsa dengan kod yang bersih dan mudah diselenggara",
+    "viewProducts": "Lihat Produk Saya",
+    "contactMe": "Hubungi Saya",
+    "scroll": "Tatal"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "email": "E-mel",
+    "phone": "Telefon",
+    "location": "Lokasi",
+    "testimonialsTitle": "Apa Kata Orang"
+  },
+  "stats": {
+    "title": "Impak Dalam Nombor",
+    "subtitle": "Metrik sebenar dari sistem pengeluaran yang saya bina dan optimumkan"
+  },
+  "skills": {
+    "title": "Kepakaran Teknikal",
+    "subtitle": "Teknologi dan alat yang saya gunakan setiap hari dalam persekitaran pengeluaran",
+    "expert": "Pakar",
+    "proficient": "Mahir",
+    "familiar": "Kenal"
+  },
+  "projects": {
+    "title": "Produk Yang Saya Bina",
+    "subtitle": "Platform produk antarabangsa melayani pengguna sebenar pada skala besar",
+    "code": "Kod",
+    "live": "Langsung",
+    "all": "Semua"
+  },
+  "contact": {
+    "title": "Mari Bekerjasama",
+    "subtitle": "Ada idea projek? Mari cipta sesuatu yang hebat bersama.",
+    "email": "E-mel",
+    "phone": "Telefon",
+    "location": "Lokasi",
+    "formName": "Nama",
+    "formEmail": "E-mel",
+    "formSubject": "Subjek",
+    "formMessage": "Mesej",
+    "namePlaceholder": "Nama anda",
+    "emailPlaceholder": "your@email.com",
+    "subjectPlaceholder": "Tentang apa ini?",
+    "messagePlaceholder": "Beritahu saya tentang projek anda...",
+    "sending": "Sedang menghantar...",
+    "sendMessage": "Hantar Mesej"
+  },
+  "footer": {
+    "tagline": "Membina platform produk yang boleh diskalakan",
+    "imageCredits": "Kredit Imej (Unsplash)",
+    "madeWith": "Dibuat dengan",
+    "by": "oleh",
+    "credits": {
+      "hero": "Foto hero",
+      "ftn": "Papan pemuka FTN",
+      "gigsberg": "Gigsberg",
+      "dolGrammar": "Tatabahasa DOL",
+      "lmsToeic": "LMS TOEIC",
+      "lmsIelts": "LMS IELTS",
+      "winWine": "Win Wine",
+      "gallery": "Imej galeri",
+      "testimonials": "Testimoni"
+    }
+  },
+  "common": {
+    "hireMe": "Upah Saya",
+    "darkMode": "Tukar ke mod gelap",
+    "lightMode": "Tukar ke mod cerah",
+    "contentNotAvailable": "Kandungan tidak tersedia",
+    "findMeOn": "Cari saya di"
+  }
+}

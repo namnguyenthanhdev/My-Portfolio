@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "about": "關於我",
+    "skills": "技能",
+    "products": "產品",
+    "contact": "聯絡"
+  },
+  "hero": {
+    "experience": "3年以上經驗",
+    "tagline": "使用清晰、易維護嘅代碼構建同擴展國際化產品平台",
+    "viewProducts": "查看產品",
+    "contactMe": "聯絡我",
+    "scroll": "滾動"
+  },
+  "about": {
+    "title": "關於我",
+    "email": "電郵",
+    "phone": "電話",
+    "location": "位置",
+    "testimonialsTitle": "別人評價"
+  },
+  "stats": {
+    "title": "數字見証",
+    "subtitle": "我構建同優化嘅生產系統真實指標"
+  },
+  "skills": {
+    "title": "技術專長",
+    "subtitle": "我喺生產環境每日使用嘅技術同工具",
+    "expert": "專家",
+    "proficient": "熟練",
+    "familiar": "認識"
+  },
+  "projects": {
+    "title": "我開發嘅產品",
+    "subtitle": "服務大規模真實用戶嘅國際化產品平台",
+    "code": "代碼",
+    "live": "在線",
+    "all": "全部"
+  },
+  "contact": {
+    "title": "一起合作",
+    "subtitle": "有項目想法？我哋一齊創造精彩。",
+    "email": "電郵",
+    "phone": "電話",
+    "location": "位置",
+    "formName": "姓名",
+    "formEmail": "電郵",
+    "formSubject": "主題",
+    "formMessage": "訊息",
+    "namePlaceholder": "你嘅姓名",
+    "emailPlaceholder": "your@email.com",
+    "subjectPlaceholder": "關於咩事？",
+    "messagePlaceholder": "講下你嘅項目...",
+    "sending": "發送中...",
+    "sendMessage": "發送訊息"
+  },
+  "footer": {
+    "tagline": "構建可擴展嘅產品平台",
+    "imageCredits": "圖片來源（Unsplash）",
+    "madeWith": "製作",
+    "by": "由",
+    "credits": {
+      "hero": "主圖",
+      "ftn": "FTN 儀表板",
+      "gigsberg": "Gigsberg",
+      "dolGrammar": "DOL 語法",
+      "lmsToeic": "LMS TOEIC",
+      "lmsIelts": "LMS IELTS",
+      "winWine": "Win Wine",
+      "gallery": "畫廊圖片",
+      "testimonials": "評價"
+    }
+  },
+  "common": {
+    "hireMe": "僱用我",
+    "darkMode": "切換至深色模式",
+    "lightMode": "切換至淺色模式",
+    "contentNotAvailable": "內容不可用",
+    "findMeOn": "喺度搵我"
+  }
+}
