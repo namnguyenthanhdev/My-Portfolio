@@ -71,6 +71,58 @@
       "testimonials": "Testimonials"
     }
   },
+  "impact": {
+    "title": "Business Impact",
+    "subtitle": "Product case studies showcasing how my code drives real business outcomes",
+    "badge": "Product Case Studies",
+    "viewAll": "View All Case Studies",
+    "problem": "Problem",
+    "solution": "Solution",
+    "result": "Business Result",
+    "impactMetrics": "Impact Metrics",
+    "techStack": "Tech Stack",
+    "whyTech": "Why this tech?",
+    "caseStudies": [
+      {
+        "name": "FTN Data Optimization",
+        "goal": "Transaction Velocity",
+        "role": "Senior Frontend Engineer",
+        "team": "5 Engineers, 2 Designers",
+        "problem": "850ms table latency caused brokers to miss ticket price shifts. At 50,000+ rows, UI froze during peak trading windows, directly causing lost revenue opportunities.",
+        "solution": "Implemented TanStack Virtual for efficient rendering + Nested Tables architecture. Added React.memo optimization and strategic code splitting for instant data access at scale.",
+        "result": "Brokers now execute trades faster than competitors with real-time pricing data, directly increasing platform GMV through higher transaction volume.",
+        "metrics": [
+          { "value": "74%", "label": "Faster Render", "before": "850ms", "after": "220ms" },
+          { "value": "50K+", "label": "Rows @ 60fps", "before": "Unusable", "after": "Instant" },
+          { "value": "3x", "label": "Trading Speed", "before": "Missed shifts", "after": "Real-time" }
+        ],
+        "techStack": ["TanStack Virtual", "TanStack Table", "React", "TypeScript", "Code Splitting", "React.memo"],
+        "techDecision": {
+          "tech": "TanStack Virtual + Nested Tables",
+          "reason": "Reseller domain required handling 50K+ real-time pricing rows. Traditional rendering froze UI at peak trading. Virtual scrolling maintained 60fps while Nested Tables enabled complex data relationships brokers needed for decision-making."
+        }
+      },
+      {
+        "name": "Gigsberg Automation",
+        "goal": "Operational Scalability",
+        "role": "Full Stack Engineer",
+        "team": "4 Engineers, 1 Product Manager",
+        "problem": "Payment approval was entirely manual — each transaction required back-office review. This bottleneck limited daily volume to ~200 transactions and increased operational costs.",
+        "solution": "Built Automated Payment Approval Flow integrated into CRM with rule-based auto-approval logic and risk scoring. Maintained financial security with full audit trails.",
+        "result": "Transaction volume scaled from 200 to 500+ daily without adding headcount. Back-office team now focuses on exception handling rather than routine approvals.",
+        "metrics": [
+          { "value": "60%", "label": "Less Manual Work", "before": "~2hrs", "after": "Automated" },
+          { "value": "500+", "label": "Daily Transactions", "before": "~200", "after": "500+" },
+          { "value": "0", "label": "Extra Headcount", "before": "Hire 3+", "after": "Scaled" }
+        ],
+        "techStack": ["Node.js", "React", "CRM API", "Rule Engine", "Risk Scoring", "PostgreSQL"],
+        "techDecision": {
+          "tech": "Rule-Based Automation Engine",
+          "reason": "Business needed to scale from 200 to 500+ daily transactions without doubling back-office team. Built intelligent auto-approval with risk scoring directly into CRM — eliminated manual bottleneck while maintaining financial controls and audit compliance."
+        }
+      }
+    ]
+  },
   "common": {
     "hireMe": "Hire Me",
     "darkMode": "Switch to dark mode",

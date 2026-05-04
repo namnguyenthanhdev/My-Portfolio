@@ -93,6 +93,7 @@ export const features = [
       "Stats - Animated counters with growth chart (Recharts)",
       "Skills - Animated progress bars with coding gallery images",
       "Projects - Filterable card grid with category tabs and hover overlays",
+      "Business Impact - Product case studies with Problem/Solution/Result flow, before/after metrics, and tech decisions",
       "Contact - Split layout with info cards and styled form",
       "Footer - Social links with navigation",
     ],

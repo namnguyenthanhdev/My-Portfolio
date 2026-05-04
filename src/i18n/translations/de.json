@@ -71,6 +71,58 @@
       "testimonials": "Bewertungen"
     }
   },
+  "impact": {
+    "title": "Business-Auswirkungen",
+    "subtitle": "Produktfallstudien, die zeigen, wie mein Code echte Geschäftsergebnisse vorantreibt",
+    "badge": "Produktfallstudien",
+    "viewAll": "Alle Fallstudien ansehen",
+    "problem": "Problem",
+    "solution": "Lösung",
+    "result": "Geschäftsergebnis",
+    "impactMetrics": "Auswirkungen-Metriken",
+    "techStack": "Tech-Stack",
+    "whyTech": "Warum diese Technologie?",
+    "caseStudies": [
+      {
+        "name": "FTN-Datenoptimierung",
+        "goal": "Transaktionsgeschwindigkeit",
+        "role": "Senior Frontend Engineer",
+        "team": "5 Ingenieure, 2 Designer",
+        "problem": "850ms Tabellenlatenz ließ Broker Preisänderungen verpassen. Bei 50.000+ Zeilen fror die UI während der Spitzenhandelszeiten ein, was direkt zu Umsatzverlusten führte.",
+        "solution": "Implementierung von TanStack Virtual für effizientes Rendering + Nested Tables-Architektur. Hinzufügen von React.memo-Optimierung und strategischer Code-Splitting für sofortigen Datenzugriff in großem Maßstab.",
+        "result": "Broker führen jetzt schneller als Wettbewerber Trades mit Echtzeit-Preisdaten aus und erhöhen direkt den GMV der Plattform durch höhere Transaktionsvolumina.",
+        "metrics": [
+          { "value": "74%", "label": "Schnelleres Rendering", "before": "850ms", "after": "220ms" },
+          { "value": "50K+", "label": "Zeilen @ 60fps", "before": "Unbrauchbar", "after": "Sofort" },
+          { "value": "3x", "label": "Handelsgeschwindigkeit", "before": "Verpasst", "after": "Echtzeit" }
+        ],
+        "techStack": ["TanStack Virtual", "TanStack Table", "React", "TypeScript", "Code-Splitting", "React.memo"],
+        "techDecision": {
+          "tech": "TanStack Virtual + Nested Tables",
+          "reason": "Der Reseller-Bereich erforderte die Verarbeitung von 50K+ Echtzeit-Preiszeilen. Traditionelles Rendering ließ die UI zu Spitzenzeiten einfrieren. Virtuelles Scrollen hielt 60fps aufrecht, während Nested Tables komplexe Datenbeziehungen ermöglichten, die Broker für Entscheidungen benötigten."
+        }
+      },
+      {
+        "name": "Gigsberg-Automatisierung",
+        "goal": "Operationale Skalierbarkeit",
+        "role": "Full Stack Engineer",
+        "team": "4 Ingenieure, 1 Produktmanager",
+        "problem": "Zahlungsgenehmigung war völlig manuell - jede Transaktion erforderte eine Backoffice-Prüfung. Dieser Flaschenhals begrenzte das tägliche Volumen auf ~200 Transaktionen und erhöhte die Betriebskosten.",
+        "solution": "Aufbau eines automatisierten Zahlungsgenehmigungs-Workflows, integriert in CRM mit regelbasiertem Auto-Genehmigungs-Logik und Risikobewertung. Beibehaltung der Finanzsicherheit mit vollständigen Prüfprotokollen.",
+        "result": "Das Transaktionsvolumen wurde von 200 auf über 500 täglich skaliert, ohne Personal aufzustocken. Das Backoffice-Team konzentriert sich jetzt auf die Ausnahmebehandlung statt auf Routinegenehmigungen.",
+        "metrics": [
+          { "value": "60%", "label": "Weniger manuelle Arbeit", "before": "~2hrs", "after": "Automatisiert" },
+          { "value": "500+", "label": "Tägliche Transaktionen", "before": "~200", "after": "500+" },
+          { "value": "0", "label": "Zusätzliches Personal", "before": "3+ einstellen", "after": "Skaliert" }
+        ],
+        "techStack": ["Node.js", "React", "CRM API", "Regel-Engine", "Risikobewertung", "PostgreSQL"],
+        "techDecision": {
+          "tech": "Regelbasierte Automatisierungs-Engine",
+          "reason": "Das Unternehmen musste von 200 auf 500+ tägliche Transaktionen skalieren, ohne das Backoffice-Team zu verdoppeln. Aufbau intelligenter Auto-Genehmigungen mit Risikobewertung direkt in CRM - Eliminierung des manuellen Flaschenhalses bei gleichzeitiger Aufrechterhaltung der Finanzkontrollen und Audit-Compliance."
+        }
+      }
+    ]
+  },
   "common": {
     "hireMe": "Engagieren Sie mich",
     "darkMode": "Zum dunklen Modus wechseln",

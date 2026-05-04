@@ -71,6 +71,58 @@
       "testimonials": "评价"
     }
   },
+  "impact": {
+    "title": "商业影响",
+    "subtitle": "展示我的代码如何推动实际商业成果的产品案例研究",
+    "badge": "产品案例研究",
+    "viewAll": "查看所有案例研究",
+    "problem": "问题",
+    "solution": "解决方案",
+    "result": "商业结果",
+    "impactMetrics": "影响指标",
+    "techStack": "技术栈",
+    "whyTech": "为什么选择这个技术？",
+    "caseStudies": [
+      {
+        "name": "FTN数据优化",
+        "goal": "交易速度",
+        "role": "高级前端工程师",
+        "team": "5名工程师，2名设计师",
+        "problem": "850ms的表格延迟导致经纪人错过票价变动。在50,000+行时，UI在交易高峰期间冻结，直接造成收入损失。",
+        "solution": "实施TanStack Virtual实现高效渲染 + 嵌套表格架构。添加React.memo优化和战略代码分割，实现大规模即时数据访问。",
+        "result": "经纪人现在比竞争对手更快地执行交易，通过更高的交易量直接增加平台GMV。",
+        "metrics": [
+          { "value": "74%", "label": "渲染速度提升", "before": "850ms", "after": "220ms" },
+          { "value": "50K+", "label": "60fps下行数", "before": "无法使用", "after": "即时" },
+          { "value": "3x", "label": "交易速度", "before": "错过变动", "after": "实时" }
+        ],
+        "techStack": ["TanStack Virtual", "TanStack Table", "React", "TypeScript", "代码分割", "React.memo"],
+        "techDecision": {
+          "tech": "TanStack Virtual + 嵌套表格",
+          "reason": "转售商领域需要处理50K+实时定价行。传统渲染在交易高峰时冻结UI。虚拟滚动保持60fps，而嵌套表格使经纪人决策所需的复杂数据关系成为可能。"
+        }
+      },
+      {
+        "name": "Gigsberg自动化",
+        "goal": "运营可扩展性",
+        "role": "全栈工程师",
+        "team": "4名工程师，1名产品经理",
+        "problem": "支付审批完全手动 - 每笔交易都需要后台审核。这个瓶颈将每日交易量限制在约200笔，并增加了运营成本。",
+        "solution": "构建集成到CRM的自动支付审批流程，采用基于规则的自动审批逻辑和风险评分。在保持完整审计跟踪的同时维护财务安全。",
+        "result": "交易量从200扩展到每日500+笔，无需增加人员。后台团队现在专注于异常处理，而不是常规审批。",
+        "metrics": [
+          { "value": "60%", "label": "减少手动工作", "before": "约2小时", "after": "自动化" },
+          { "value": "500+", "label": "每日交易数", "before": "约200", "after": "500+" },
+          { "value": "0", "label": "额外招聘", "before": "招聘3+", "after": "已扩展" }
+        ],
+        "techStack": ["Node.js", "React", "CRM API", "规则引擎", "风险评分", "PostgreSQL"],
+        "techDecision": {
+          "tech": "基于规则的自动化引擎",
+          "reason": "业务需要不增加后台团队的情况下从200扩展到500+每日交易。直接在CRM中构建带有风险评分的智能自动审批 - 在保持财务控制和审计合规的同时消除了手动瓶颈。"
+        }
+      }
+    ]
+  },
   "common": {
     "hireMe": "雇用我",
     "darkMode": "切换至深色模式",

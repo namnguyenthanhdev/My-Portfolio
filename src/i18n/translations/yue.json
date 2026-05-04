@@ -71,6 +71,58 @@
       "testimonials": "評價"
     }
   },
+  "impact": {
+    "title": "商業影響",
+    "subtitle": "展示我嘅代碼如何推動實際商業成果嘅產品案例研究",
+    "badge": "產品案例研究",
+    "viewAll": "查看所有案例研究",
+    "problem": "問題",
+    "solution": "解決方案",
+    "result": "商業結果",
+    "impactMetrics": "影響指標",
+    "techStack": "技術棧",
+    "whyTech": "點解用呢個技術？",
+    "caseStudies": [
+      {
+        "name": "FTN數據優化",
+        "goal": "交易速度",
+        "role": "高級前耑工程師",
+        "team": "5名工程師，2名設計師",
+        "problem": "850ms嘅表格延遲導致經紀錯過票價變動。喺50,000+行嘅時候，UI喺交易高峰時期凍結，直接造成收益損失。",
+        "solution": "實施TanStack Virtual實現高效渲染 + 嵌套表格架構。添加React.memo優化同戰略代碼分割，實現大規模即時數據訪問。",
+        "result": "經紀而家比競爭對手更快執行交易，通過更高嘅交易量直接增加平台GMV。",
+        "metrics": [
+          { "value": "74%", "label": "渲染速度提升", "before": "850ms", "after": "220ms" },
+          { "value": "50K+", "label": "60fps下行數", "before": "無法使用", "after": "即時" },
+          { "value": "3x", "label": "交易速度", "before": "錯過變動", "after": "實時" }
+        ],
+        "techStack": ["TanStack Virtual", "TanStack Table", "React", "TypeScript", "代碼分割", "React.memo"],
+        "techDecision": {
+          "tech": "TanStack Virtual + 嵌套表格",
+          "reason": "轉售商領域需要處理50K+實時定價行。傳統渲染喺交易高峰時凍結UI。虛擬滾動保持60fps，而嵌套表格令到經紀決策所需嘅複雜數據關係成為可能。"
+        }
+      },
+      {
+        "name": "Gigsberg自動化",
+        "goal": "運營可擴展性",
+        "role": "全棧工程師",
+        "team": "4名工程師，1名產品經理",
+        "problem": "支付審批完全手動 - 每一筆交易都需要後台審核。呢個瓶頸將每日交易量限制在約200筆，並增加了運營成本。",
+        "solution": "構建集成到CRM嘅自動支付審批流程，採用基於規則嘅自動審批邏輯同風險評分。喺保持完整審計跟蹤嘅同時維護財務安全。",
+        "result": "交易量從200擴展到每日500+筆，無需增加人員。後台團隊而家專注於異常處理，而唔係常規審批。",
+        "metrics": [
+          { "value": "60%", "label": "減少手動工作", "before": "約2小時", "after": "自動化" },
+          { "value": "500+", "label": "每日交易數", "before": "約200", "after": "500+" },
+          { "value": "0", "label": "額外招聘", "before": "招聘3+", "after": "已擴展" }
+        ],
+        "techStack": ["Node.js", "React", "CRM API", "規則引擎", "風險評分", "PostgreSQL"],
+        "techDecision": {
+          "tech": "基於規則嘅自動化引擎",
+          "reason": "業務需要唔增加後台團隊嘅情況下從200擴展到500+每日交易。直接在CRM中構建帶有風險評分嘅智能自動審批 - 喺保持財務控制同審計合規嘅同時消除咗手動瓶頸。"
+        }
+      }
+    ]
+  },
   "common": {
     "hireMe": "僱用我",
     "darkMode": "切換至深色模式",

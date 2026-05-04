@@ -71,6 +71,58 @@
       "testimonials": "Testimoni"
     }
   },
+  "impact": {
+    "title": "Impak Perniagaan",
+    "subtitle": "Kajian kes produk yang mempamerkan bagaimana kod saya memacu hasil perniagaan sebenar",
+    "badge": "Kajian Kes Produk",
+    "viewAll": "Lihat Semua Kajian Kes",
+    "problem": "Masalah",
+    "solution": "Penyelesaian",
+    "result": "Keputusan Perniagaan",
+    "impactMetrics": "Metrik Impak",
+    "techStack": "Teknologi Digunakan",
+    "whyTech": "Mengapa teknologi ini?",
+    "caseStudies": [
+      {
+        "name": "Pengoptimaan Data FTN",
+        "goal": "Halaju Transaksi",
+        "role": "Senior Frontend Engineer",
+        "team": "5 Jurutera, 2 Pereka",
+        "problem": "Latenci jadual 850ms menyebabkan broker terlepas perubahan harga tiket. Pada 50,000+ baris, UI membeku semasa tetingkap dagangan puncak, menyebabkan kehilangan peluang hasil secara langsung.",
+        "solution": "Melaksanakan TanStack Virtual untuk pemaparan cekap + arkitektur Jadual Bersarang. Menambah optimasi React.memo dan pembahagian kod strategik untuk akses data serta-merta pada skala besar.",
+        "result": "Broker kini melaksanakan dagangan lebih cepat dari pesaing dengan data harga masa nyata, secara langsung meningkatkan GMV platform melalui isipadu transaksi yang lebih tinggi.",
+        "metrics": [
+          { "value": "74%", "label": "Pemaparan Lebih Cepat", "before": "850ms", "after": "220ms" },
+          { "value": "50K+", "label": "Baris @ 60fps", "before": "Tidak boleh guna", "after": "Serta-merta" },
+          { "value": "3x", "label": "Kelajuan Dagangan", "before": "Terlepas", "after": "Masa nyata" }
+        ],
+        "techStack": ["TanStack Virtual", "TanStack Table", "React", "TypeScript", "Pembahagian Kod", "React.memo"],
+        "techDecision": {
+          "tech": "TanStack Virtual + Jadual Bersarang",
+          "reason": "Domain penjual semula memerlukan pengendalian 50K+ baris harga masa nyata. Pemaparan tradisional membekukan UI pada dagangan puncak. Tatalan maya mengekalkan 60fps sementara Jadual Bersarang membolehkan hubungan data kompleks yang diperlukan broker untuk membuat keputusan."
+        }
+      },
+      {
+        "name": "Automasi Gigsberg",
+        "goal": "Kebolehskalaan Operasi",
+        "role": "Jurutera Full Stack",
+        "team": "4 Jurutera, 1 Pengurus Produk",
+        "problem": "Kelulusan pembayaran sepenuhnya manual - setiap transaksi memerlukan semakan pejabat belakang. Bottleneck ini menhadkan isipadu harian kepada ~200 transaksi dan meningkatkan kos operasi.",
+        "solution": "Membina Aliran Kelulusan Pembayaran Automatik yang disepadukan ke dalam CRM dengan logik auto-kelulusan berasaskan peraturan dan pemarkahan risiko. Mengekalkan keselamatan kewangan dengan jejak audit penuh.",
+        "result": "Isipadu transaksi diskalakan dari 200 kepada 500+ harian tanpa menambah kakitangan. Pasukan pejabat belakang kini memberi tumpuan kepada pengendalian pengecualian dan bukannya kelulusan rutin.",
+        "metrics": [
+          { "value": "60%", "label": "Kurang Kerja Manual", "before": "~2jam", "after": "Automatik" },
+          { "value": "500+", "label": "Transaksi Harian", "before": "~200", "after": "500+" },
+          { "value": "0", "label": "Pengambilan Tambahan", "before": "Ambil 3+", "after": "Diskala" }
+        ],
+        "techStack": ["Node.js", "React", "CRM API", "Enjin Peraturan", "Pemarkahan Risiko", "PostgreSQL"],
+        "techDecision": {
+          "tech": "Enjin Automasi Berasaskan Peraturan",
+          "reason": "Perniagaan perlu diskala dari 200 kepada 500+ transaksi harian tanpa mengganda pasukan pejabat belakang. Membina auto-kelulusan pintar dengan pemarkahan risiko terus ke dalam CRM - menghapuskan bottleneck manual sambil mengekalkan kawalan kewangan dan pematuhan audit."
+        }
+      }
+    ]
+  },
   "common": {
     "hireMe": "Upah Saya",
     "darkMode": "Tukar ke mod gelap",

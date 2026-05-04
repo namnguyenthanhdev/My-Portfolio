@@ -71,6 +71,58 @@
       "testimonials": "Nhận xét"
     }
   },
+  "impact": {
+    "title": "Tác Động Kinh Doanh",
+    "subtitle": "Nghiên cứu case study sản phẩm cho thấy code tôi tạo ra mang lại kết quả kinh doanh thực tế",
+    "badge": "Nghiên Cứu Case Study",
+    "viewAll": "Xem Tất Cả Case Study",
+    "problem": "Vấn Đề",
+    "solution": "Giải Pháp",
+    "result": "Kết Quả Kinh Doanh",
+    "impactMetrics": "Chỉ Số Tác Động",
+    "techStack": "Công Nghệ Sử Dụng",
+    "whyTech": "Tại sao công nghệ này?",
+    "caseStudies": [
+      {
+        "name": "Tối Ưu Hóa Dữ Liệu FTN",
+        "goal": "Tốc Độ Giao Dịch",
+        "role": "Senior Frontend Engineer",
+        "team": "5 Kỹ Sư, 2 Designer",
+        "problem": "Độ trễ bảng 850ms khiến broker bỏ lỡ thay đổi giá vé. Với 50.000+ dòng, UI bị đóng băng trong giờ giao dịch cao điểm, gây mất doanh thu trực tiếp.",
+        "solution": "Triển khai TanStack Virtual để render hiệu quả + kiến trúc Nested Tables. Thêm tối ưu React.memo và code splitting chiến lược cho truy cập dữ liệu tức thì ở quy mô lớn.",
+        "result": "Broker hiện thực hiện giao dịch nhanh hơn đối thủ với dữ liệu giá real-time, trực tiếp tăng GMV platform thông qua khối lượng giao dịch cao hơn.",
+        "metrics": [
+          { "value": "74%", "label": "Render Nhanh Hơn", "before": "850ms", "after": "220ms" },
+          { "value": "50K+", "label": "Rows @ 60fps", "before": "Không dùng được", "after": "Tức thì" },
+          { "value": "3x", "label": "Tốc Độ Giao Dịch", "before": "Bỏ lỡ", "after": "Real-time" }
+        ],
+        "techStack": ["TanStack Virtual", "TanStack Table", "React", "TypeScript", "Code Splitting", "React.memo"],
+        "techDecision": {
+          "tech": "TanStack Virtual + Nested Tables",
+          "reason": "Reseller domain yêu cầu xử lý 50K+ dòng dữ liệu giá real-time. Render truyền thống làm đống UI lúc cao điểm. Virtual scrolling duy trì 60fps trong khi Nested Tables cho phép mối quan hệ dữ liệu phức tạp broker cần để ra quyết định."
+        }
+      },
+      {
+        "name": "Tự Động Hóa Gigsberg",
+        "goal": "Mở Rộng Vận Hành",
+        "role": "Full Stack Engineer",
+        "team": "4 Kỹ Sư, 1 Product Manager",
+        "problem": "Phê duyệt thanh toán hoàn toàn thủ công - mỗi giao dịch cần review back-office. Bottleneck này giới hạn volume hàng ngày ~200 giao dịch và tăng chi phí vận hành.",
+        "solution": "Xây dựng Automated Payment Approval Flow tích hợp vào CRM với logic auto-approval dựa trên quy tắc và risk scoring. Duy trì bảo mật tài chính với đầy đủ audit trails.",
+        "result": "Volume giao dịch tăng từ 200 lên 500+ mỗi ngày mà không tuyển thêm người. Đội back-office giờ tập trung vào xử lý ngoại lệ thay vì phê duyệt thủ công.",
+        "metrics": [
+          { "value": "60%", "label": "Ít Việc Thủ Công", "before": "~2hrs", "after": "Tự động" },
+          { "value": "500+", "label": "Giao Dịch Hàng Ngày", "before": "~200", "after": "500+" },
+          { "value": "0", "label": "Tuyển Thêm", "before": "Tuyển 3+", "after": "Mở rộng" }
+        ],
+        "techStack": ["Node.js", "React", "CRM API", "Rule Engine", "Risk Scoring", "PostgreSQL"],
+        "techDecision": {
+          "tech": "Rule-Based Automation Engine",
+          "reason": "Doanh nghiệp cần mở rộng từ 200 lên 500+ giao dịch hàng ngày mà không tăng gấp đôi đội back-office. Xây dựng auto-approval thông minh với risk scoring trực tiếp vào CRM - loại bỏ bottleneck thủ công trong khi duy trì kiểm soát tài chính và tuân thủ audit."
+        }
+      }
+    ]
+  },
   "common": {
     "hireMe": "Thuê tôi",
     "darkMode": "Chuyển sang chế độ tối",
