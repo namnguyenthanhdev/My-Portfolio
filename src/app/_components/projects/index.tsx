@@ -8,6 +8,7 @@ import useProjectFilter from "@/app/_hooks/use-project-filter"
 
 import ProjectFilters from "./project-filters"
 import ProjectGrid from "./project-grid"
+import { ProjectProductImpact } from "./project-product-impact"
 
 const ProjectHeader = () => {
   const t = useT()
@@ -49,6 +50,10 @@ const Projects = () => {
         />
 
         <ProjectGrid projects={filtered} />
+
+        <div className="mt-20 pt-16 border-t border-border/50">
+          <ProjectProductImpact />
+        </div>
       </div>
     </section>
   )
