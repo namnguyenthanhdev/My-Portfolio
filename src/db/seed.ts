@@ -1,12 +1,9 @@
 import Database from "better-sqlite3"
 import { drizzle } from "drizzle-orm/better-sqlite3"
-
 import * as schema from "./schema"
 
 const sqlite = new Database("src/db/portfolio.db")
 const db = drizzle(sqlite, { schema })
-
-const unsplash = (id: string) => `https://images.unsplash.com/${id}?w=800&auto=format&fit=crop&q=80`
 
 async function seed() {
   console.warn("Seeding database...")
@@ -54,7 +51,7 @@ async function seed() {
         "I specialize in React, Next.js, TypeScript, and performance optimization — from virtualized tables handling 50,000+ rows to real-time presence systems tracking concurrent sessions.",
         "Strong foundation in design systems, accessibility, SEO best practices, and internationalization. I bridge the gap between design intent and engineering reality.",
       ]),
-      image: unsplash("photo-1507003211169-0a1dd7228f2d"),
+      image: "/_images/hero.jpg",
     })
     .run()
 
@@ -143,6 +140,24 @@ async function seed() {
     ])
     .run()
 
+  const projectImages = [
+    "/_images/ftn.jpg",
+    "/_images/gigsberg.jpg",
+    "/_images/dol-grammar.jpg",
+    "/_images/lms-toeic.jpg",
+    "/_images/lms-ielts.jpg",
+    "/_images/win-wine.jpg",
+  ]
+
+  const projectTags = [
+    ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "RTK Query", "TanStack Table", "SocketIO"],
+    ["Next.js", "React", "TypeScript", "Tailwind CSS", "i18n", "shadcn/ui"],
+    ["Next.js", "React", "Mobx", "Ant Design"],
+    ["Next.js", "React", "Mobx", "Ant Design"],
+    ["Next.js", "React", "Mobx", "Ant Design", "SEO"],
+    ["React Native", "Redux", "HTML", "CSS", "JavaScript"],
+  ]
+
   const projectUrls: Record<string, Array<{ label: string; url: string }>> = {
     "1": [],
     "2": [
@@ -158,24 +173,6 @@ async function seed() {
     "5": [],
     "6": [],
   }
-
-  const projectImages = [
-    "photo-1551288049-bebda4e38f71",
-    "photo-1611224923853-80b023f02d71",
-    "photo-1504386105548-98d22123d3b4",
-    "photo-1611926653458-09294b3142bf",
-    "photo-1677442136019-21780ecad995",
-    "photo-1476480862126-209bfaa80c89",
-  ]
-
-  const projectTags = [
-    ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "RTK Query", "TanStack Table", "SocketIO"],
-    ["Next.js", "React", "TypeScript", "Tailwind CSS", "i18n", "shadcn/ui"],
-    ["Next.js", "React", "Mobx", "Ant Design"],
-    ["Next.js", "React", "Mobx", "Ant Design"],
-    ["Next.js", "React", "Mobx", "Ant Design", "SEO"],
-    ["React Native", "Redux", "HTML", "CSS", "JavaScript"],
-  ]
 
   const projects = [
     {
@@ -229,7 +226,7 @@ async function seed() {
         id: p.id,
         title: p.title,
         description: p.description,
-        image: unsplash(projectImages[idx]),
+        image: projectImages[idx],
         tags: JSON.stringify(projectTags[idx]),
         githubUrl: null,
         urls: JSON.stringify(projectUrls[p.id]),
@@ -241,12 +238,12 @@ async function seed() {
 
   db.insert(schema.gallery)
     .values([
-      { src: unsplash("photo-1555066931-4365d14bab8c"), order: 1 },
-      { src: unsplash("photo-1498050108023-c5249f4df085"), order: 2 },
-      { src: unsplash("photo-1517694712202-14dd9538aa97"), order: 3 },
-      { src: unsplash("photo-1504639725590-34d0984388bd"), order: 4 },
-      { src: unsplash("photo-1461749280684-dccba630e2f6"), order: 5 },
-      { src: unsplash("photo-1550439062-609e1531270e"), order: 6 },
+      { src: "/_images/gallery-1.jpg", order: 1 },
+      { src: "/_images/gallery-2.jpg", order: 2 },
+      { src: "/_images/gallery-3.jpg", order: 3 },
+      { src: "/_images/gallery-4.jpg", order: 4 },
+      { src: "/_images/gallery-5.jpg", order: 5 },
+      { src: "/_images/gallery-6.jpg", order: 6 },
     ])
     .run()
 
@@ -255,21 +252,21 @@ async function seed() {
       name: "Tung Nguyen",
       role: "5-year Senior at DOL English, Mentor",
       text: "Nam is a dedicated developer who consistently delivers high-quality work. His attention to detail and problem-solving skills make him an invaluable team member.",
-      image: unsplash("photo-1494790108377-be9c29b29330"),
+      image: "/_images/testimonial-1.jpg",
       order: 1,
     },
     {
       name: "Nam Le",
       role: "Senior Software Engineer at Grab, Mentor",
       text: "Strong understanding of SOLID principles and modern frontend practices. Nam brings both technical excellence and a collaborative mindset to every project.",
-      image: unsplash("photo-1507003211169-0a1dd7228f2d"),
+      image: "/_images/testimonial-2.jpg",
       order: 2,
     },
     {
       name: "Intertu Education",
       role: "Employer",
       text: "Nam effectively taught complex Computer Science topics to international high-school students, demonstrating deep knowledge and excellent communication skills.",
-      image: unsplash("photo-1438761681033-6461ffad8d80"),
+      image: "/_images/testimonial-3.jpg",
       order: 3,
     },
   ]
