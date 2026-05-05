@@ -51,7 +51,7 @@ async function seed() {
         "I specialize in React, Next.js, TypeScript, and performance optimization — from virtualized tables handling 50,000+ rows to real-time presence systems tracking concurrent sessions.",
         "Strong foundation in design systems, accessibility, SEO best practices, and internationalization. I bridge the gap between design intent and engineering reality.",
       ]),
-      image: "/_images/hero.jpg",
+      image: "https://i.ibb.co/cKBvmHcy/486320814-3029138397269023-3818452916209314413-n.jpg",
     })
     .run()
 
@@ -113,7 +113,8 @@ async function seed() {
       { year: "2022", projects: 1, clients: 0, articles: 0 },
       { year: "2023", projects: 1, clients: 0, articles: 0 },
       { year: "2024", projects: 1, clients: 0, articles: 0 },
-      { year: "2025", projects: 2, clients: 0, articles: 0 },
+      { year: "2025", projects: 1, clients: 0, articles: 0 },
+      { year: "2026", projects: 2, clients: 0, articles: 0 },
     ])
     .run()
 
@@ -140,24 +141,6 @@ async function seed() {
     ])
     .run()
 
-  const projectImages = [
-    "/_images/gigsberg-logo.png",
-    "/_images/gigsberg-logo.png",
-    "/_images/dol-grammar-logo.png",
-    "/_images/dol-grammar-logo.png",
-    "/_images/dol-grammar-logo.png",
-    "/_images/dol-grammar-logo.png",
-  ]
-
-  const projectTags = [
-    ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "RTK Query", "TanStack Table", "SocketIO"],
-    ["Next.js", "React", "TypeScript", "Tailwind CSS", "i18n", "shadcn/ui"],
-    ["Next.js", "React", "Mobx", "Ant Design"],
-    ["Next.js", "React", "Mobx", "Ant Design"],
-    ["Next.js", "React", "Mobx", "Ant Design", "SEO"],
-    ["React Native", "Redux", "HTML", "CSS", "JavaScript"],
-  ]
-
   const projectUrls: Record<string, Array<{ label: string; url: string }>> = {
     "1": [],
     "2": [
@@ -174,6 +157,15 @@ async function seed() {
     "6": [],
   }
 
+  const projectTags = [
+    ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "RTK Query", "TanStack Table", "SocketIO"],
+    ["Next.js", "React", "TypeScript", "Tailwind CSS", "i18n", "shadcn/ui"],
+    ["Next.js", "React", "Mobx", "Ant Design"],
+    ["Next.js", "React", "Mobx", "Ant Design"],
+    ["Next.js", "React", "Mobx", "Ant Design", "SEO"],
+    ["React Native", "Redux", "HTML", "CSS", "JavaScript"],
+  ]
+
   const projects = [
     {
       id: "1",
@@ -181,6 +173,7 @@ async function seed() {
       description:
         "Converted a 10-year production system. Engineered nested virtualized tables rendering 50,000+ rows (850ms → 220ms, 74% improvement). Implemented cursor-based pagination for 10,000+ records and real-time presence tracking via SocketIO.",
       category: "Enterprise",
+      image: "https://i.ibb.co/dsPV3ysd/ftn-logo.png"
     },
     {
       id: "2",
@@ -188,6 +181,7 @@ async function seed() {
       description:
         "Multi-language, multi-location CRM. Built bulk translation tooling with JSON import/export, automated payment approval flows reducing manual work by 60%, and customizable sales workflows for regional market adaptation.",
       category: "CRM",
+      image: "https://i.ibb.co/5xWJfJr2/gigsberg-logo.png",
     },
     {
       id: "3",
@@ -195,6 +189,7 @@ async function seed() {
       description:
         "Interactive learning platform with MCQs, drag-and-drop exercises, flashcards, and rich-text responses. Built instant results engine and customizable study tools for IELTS/TOEIC preparation.",
       category: "Education",
+      image: "https://i.ibb.co/XfLsLvJq/dol-grammar-logo.png",
     },
     {
       id: "4",
@@ -202,6 +197,7 @@ async function seed() {
       description:
         "Full CMS & LMS for TOEIC. Student & Teacher Management, Teaching Logs, Form-Based Data Entry, SEO-optimized landing pages. Maintained by collaborating closely with UI/UX teams via Figma.",
       category: "Education",
+      image: "https://i.ibb.co/gL2VFqDC/dol-lms-logo.png",
     },
     {
       id: "5",
@@ -209,6 +205,7 @@ async function seed() {
       description:
         "Maintenance of CMS & LMS for IELTS preparation. Interactive assessment logic, student management, teaching logs, and form-based data entry for records and feedback.",
       category: "Education",
+      image: "https://i.ibb.co/gL2VFqDC/dol-lms-logo.png",
     },
     {
       id: "6",
@@ -216,6 +213,7 @@ async function seed() {
       description:
         "Responsive mobile-first web application for Android. Adaptive design with RESTful API integration, Redux state management, and deployment configuration on Android platform.",
       category: "Mobile",
+      image: "https://i.ibb.co/QF7CJSPh/winwine-logo.png",
     },
   ]
 
@@ -226,7 +224,7 @@ async function seed() {
         id: p.id,
         title: p.title,
         description: p.description,
-        image: projectImages[idx],
+        image: p.image,
         tags: JSON.stringify(projectTags[idx]),
         githubUrl: null,
         urls: JSON.stringify(projectUrls[p.id]),
@@ -236,37 +234,26 @@ async function seed() {
       .run()
   }
 
-  db.insert(schema.gallery)
-    .values([
-      { src: "/_images/gigsberg-logo.png", order: 1 },
-      { src: "/_images/gigsberg-logo.png", order: 2 },
-      { src: "/_images/dol-grammar-logo.png", order: 3 },
-      { src: "/_images/dol-grammar-logo.png", order: 4 },
-      { src: "/_images/dol-grammar-logo.png", order: 5 },
-      { src: "/_images/gigsberg-logo.png", order: 6 },
-    ])
-    .run()
-
   const testimonials = [
     {
       name: "Tung Nguyen",
       role: "5-year Senior at DOL English, Mentor",
       text: "Nam is a dedicated developer who consistently delivers high-quality work. His attention to detail and problem-solving skills make him an invaluable team member.",
-      image: "/_images/dol-grammar-logo.png",
+      image: "https://i.ibb.co/k2jxvmBd/man-2-avatar.jpg",
       order: 1,
     },
     {
       name: "Nam Le",
       role: "Senior Software Engineer at Grab, Mentor",
       text: "Strong understanding of SOLID principles and modern frontend practices. Nam brings both technical excellence and a collaborative mindset to every project.",
-      image: "/_images/gigsberg-logo.png",
+      image: "https://i.ibb.co/RxqSsrq/man-1-avatar.jpg",
       order: 2,
     },
     {
       name: "Intertu Education",
       role: "Employer",
       text: "Nam effectively taught complex Computer Science topics to international high-school students, demonstrating deep knowledge and excellent communication skills.",
-      image: "/_images/dol-grammar-logo.png",
+      image: "https://i.ibb.co/TD8D2sWb/woman-1-avatar.jpg",
       order: 3,
     },
   ]
