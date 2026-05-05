@@ -141,12 +141,12 @@ async function seed() {
     .run()
 
   const projectImages = [
-    "/_images/ftn.jpg",
-    "/_images/gigsberg.jpg",
-    "/_images/dol-grammar.jpg",
-    "/_images/lms-toeic.jpg",
-    "/_images/lms-ielts.jpg",
-    "/_images/win-wine.jpg",
+    "/_images/gigsberg-logo.png",
+    "/_images/gigsberg-logo.png",
+    "/_images/dol-grammar-logo.png",
+    "/_images/dol-grammar-logo.png",
+    "/_images/dol-grammar-logo.png",
+    "/_images/dol-grammar-logo.png",
   ]
 
   const projectTags = [
@@ -238,12 +238,12 @@ async function seed() {
 
   db.insert(schema.gallery)
     .values([
-      { src: "/_images/gallery-1.jpg", order: 1 },
-      { src: "/_images/gallery-2.jpg", order: 2 },
-      { src: "/_images/gallery-3.jpg", order: 3 },
-      { src: "/_images/gallery-4.jpg", order: 4 },
-      { src: "/_images/gallery-5.jpg", order: 5 },
-      { src: "/_images/gallery-6.jpg", order: 6 },
+      { src: "/_images/gigsberg-logo.png", order: 1 },
+      { src: "/_images/gigsberg-logo.png", order: 2 },
+      { src: "/_images/dol-grammar-logo.png", order: 3 },
+      { src: "/_images/dol-grammar-logo.png", order: 4 },
+      { src: "/_images/dol-grammar-logo.png", order: 5 },
+      { src: "/_images/gigsberg-logo.png", order: 6 },
     ])
     .run()
 
@@ -252,21 +252,21 @@ async function seed() {
       name: "Tung Nguyen",
       role: "5-year Senior at DOL English, Mentor",
       text: "Nam is a dedicated developer who consistently delivers high-quality work. His attention to detail and problem-solving skills make him an invaluable team member.",
-      image: "/_images/testimonial-1.jpg",
+      image: "/_images/dol-grammar-logo.png",
       order: 1,
     },
     {
       name: "Nam Le",
       role: "Senior Software Engineer at Grab, Mentor",
       text: "Strong understanding of SOLID principles and modern frontend practices. Nam brings both technical excellence and a collaborative mindset to every project.",
-      image: "/_images/testimonial-2.jpg",
+      image: "/_images/gigsberg-logo.png",
       order: 2,
     },
     {
       name: "Intertu Education",
       role: "Employer",
       text: "Nam effectively taught complex Computer Science topics to international high-school students, demonstrating deep knowledge and excellent communication skills.",
-      image: "/_images/testimonial-3.jpg",
+      image: "/_images/dol-grammar-logo.png",
       order: 3,
     },
   ]
