@@ -51,7 +51,7 @@ async function seed() {
         "I specialize in React, Next.js, TypeScript, and performance optimization — from virtualized tables handling 50,000+ rows to real-time presence systems tracking concurrent sessions.",
         "Strong foundation in design systems, accessibility, SEO best practices, and internationalization. I bridge the gap between design intent and engineering reality.",
       ]),
-      image: "/_images/hero.jpg",
+      image: "https://i.ibb.co/Z6fyv2sM/334675159-5355375824563168-6453107353838317331-n.jpg",
       education: JSON.stringify({
         school: "International University (Đại học Quốc tế - ĐHQG)",
         degree: "Bachelor of Science",
