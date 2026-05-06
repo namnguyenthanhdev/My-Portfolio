@@ -11,7 +11,7 @@ const TestimonialCardItem = ({
   testimonial,
   index,
 }: {
-  testimonial: { name: string; role: string; text: string; image: string }
+  testimonial: { name: string; role: string; text: string; image: string; email?: string }
   index: number
 }) => (
   <motion.div
@@ -31,6 +31,9 @@ const TestimonialCardItem = ({
         <div>
           <p className="text-sm font-semibold">{testimonial.name}</p>
           <p className="text-xs text-muted-foreground">{testimonial.role}</p>
+          {testimonial.email && (
+            <p className="text-xs text-muted-foreground">{testimonial.email}</p>
+          )}
         </div>
       </div>
     </div>

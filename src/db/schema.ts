@@ -81,5 +81,6 @@ export const testimonials = sqliteTable("testimonials", {
   role: text("role").notNull(),
   text: text("text").notNull(),
   image: text("image").notNull(),
+  email: text("email"),
   order: integer("order").notNull(),
 })

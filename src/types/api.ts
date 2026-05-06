@@ -20,6 +20,7 @@ export interface ApiAbout {
   headline: string
   bio: string[]
   image: string
+  education?: string
 }
 
 export interface ApiChartRow {

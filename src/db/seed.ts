@@ -53,7 +53,7 @@ async function seed() {
       ]),
       image: "/_images/hero.jpg",
       education: JSON.stringify({
-        university: "International University (Đại học Quốc tế - ĐHQG)",
+        school: "International University (Đại học Quốc tế - ĐHQG)",
         degree: "Bachelor of Science",
         gpa: "8.2/10.0",
         scholarship: "Partial scholarship for 4 years",
@@ -304,6 +304,7 @@ async function seed() {
       role: "5-year Senior at DOL English, Mentor",
       text: "Nam is a dedicated developer who consistently delivers high-quality work. His attention to detail and problem-solving skills make him an invaluable team member.",
       image: "https://i.ibb.co/k2jxvmBd/man-2-avatar.jpg",
+      email: "tungnguyen@example.com",
       order: 1,
     },
     {
@@ -311,6 +312,7 @@ async function seed() {
       role: "Senior Software Engineer at Grab, Mentor",
       text: "Strong understanding of SOLID principles and modern frontend practices. Nam brings both technical excellence and a collaborative mindset to every project.",
       image: "https://i.ibb.co/RxqSsrq/man-1-avatar.jpg",
+      email: "namle@example.com",
       order: 2,
     },
     {
@@ -318,6 +320,7 @@ async function seed() {
       role: "Employer",
       text: "Nam effectively taught complex Computer Science topics to international high-school students, demonstrating deep knowledge and excellent communication skills.",
       image: "https://i.ibb.co/TD8D2sWb/woman-1-avatar.jpg",
+      email: "contact@intertu.edu.vn",
       order: 3,
     },
   ]

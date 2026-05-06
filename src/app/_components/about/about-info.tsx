@@ -58,6 +58,34 @@ const AboutInfo = () => {
         ))}
       </div>
 
+      {about?.education && (
+        <div className="mb-8">
+          <h3 className="text-lg font-semibold mb-4">Education</h3>
+          <div className="space-y-4 text-muted-foreground">
+            {(() => {
+              try {
+                const edu = JSON.parse(about.education)
+                return (
+                  <div className="p-4 rounded-lg bg-muted/30 border border-border/50">
+                    <p className="font-medium text-foreground">{edu.school || edu.university}</p>
+                    <p className="text-sm">{edu.degree}</p>
+                    <p className="text-xs text-muted-foreground">{edu.gpa && `GPA: ${edu.gpa}`}</p>
+                    {edu.scholarship && (
+                      <p className="text-xs text-green-600 mt-1">{edu.scholarship}</p>
+                    )}
+                    {edu.highSchool && (
+                      <p className="text-xs text-muted-foreground mt-2">High School: {edu.highSchool}</p>
+                    )}
+                  </div>
+                )
+              } catch {
+                return null
+              }
+            })()}
+          </div>
+        </div>
+      )}
+
       <div className="space-y-4 mb-8">
         {contactItems.map((item) => (
           <ContactRow key={item.label} {...item} />
