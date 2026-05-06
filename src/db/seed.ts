@@ -304,15 +304,15 @@ async function seed() {
       role: "5-year Senior at DOL English, Mentor",
       text: "Nam is a dedicated developer who consistently delivers high-quality work. His attention to detail and problem-solving skills make him an invaluable team member.",
       image: "https://i.ibb.co/k2jxvmBd/man-2-avatar.jpg",
-      email: "tungnguyen@example.com",
+      email: "minhtung.nguyen0612@gmail.com",
       order: 1,
     },
     {
       name: "Nam Le",
       role: "Senior Software Engineer at Grab, Mentor",
       text: "Strong understanding of SOLID principles and modern frontend practices. Nam brings both technical excellence and a collaborative mindset to every project.",
-      image: "https://i.ibb.co/RxqSsrq/man-1-avatar.jpg",
-      email: "namle@example.com",
+      image: "https://i.ibb.co/k2jxvmBd/man-2-avatar.jpg",
+      email: "linkedin.com/in/lehoangnam",
       order: 2,
     },
     {
@@ -320,7 +320,7 @@ async function seed() {
       role: "Employer",
       text: "Nam effectively taught complex Computer Science topics to international high-school students, demonstrating deep knowledge and excellent communication skills.",
       image: "https://i.ibb.co/TD8D2sWb/woman-1-avatar.jpg",
-      email: "contact@intertu.edu.vn",
+      email: "",
       order: 3,
     },
   ]

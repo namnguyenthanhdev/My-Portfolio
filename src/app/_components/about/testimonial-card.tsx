@@ -32,7 +32,9 @@ const TestimonialCardItem = ({
           <p className="text-sm font-semibold">{testimonial.name}</p>
           <p className="text-xs text-muted-foreground">{testimonial.role}</p>
           {testimonial.email && (
-            <p className="text-xs text-muted-foreground">{testimonial.email}</p>
+            <a href={`mailto:${testimonial.email}`} className="text-xs text-primary hover:underline">
+              {testimonial.email}
+            </a>
           )}
         </div>
       </div>
