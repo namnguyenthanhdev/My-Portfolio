@@ -12,6 +12,8 @@ export interface Project {
   githubUrl: string | null
   urls: ProjectLink[]
   category: string
+  details?: string[]
+  techStack?: string[]
 }
 
 export interface Skill {

@@ -51,7 +51,29 @@ async function seed() {
         "I specialize in React, Next.js, TypeScript, and performance optimization — from virtualized tables handling 50,000+ rows to real-time presence systems tracking concurrent sessions.",
         "Strong foundation in design systems, accessibility, SEO best practices, and internationalization. I bridge the gap between design intent and engineering reality.",
       ]),
-      image: "https://i.ibb.co/cKBvmHcy/486320814-3029138397269023-3818452916209314413-n.jpg",
+      image: "/_images/hero.jpg",
+      education: JSON.stringify({
+        university: "International University (Đại học Quốc tế - ĐHQG)",
+        degree: "Bachelor of Science",
+        gpa: "8.2/10.0",
+        scholarship: "Partial scholarship for 4 years",
+        highSchool: "Le Hong Phong High School For The Gifted",
+        grade: "Good grade",
+        references: [
+          {
+            name: "Tung Nguyen",
+            role: "5-year Senior at DOL English, Mentor",
+            email: "minhtung.nguyen0612@gmail.com",
+            relation: "Mentor at DOL English"
+          },
+          {
+            name: "Nam Le",
+            role: "Senior Software Engineer at Grab",
+            linkedin: "linkedin.com/in/lehoangnam",
+            relation: "Mentor, Senior Engineer at Grab"
+          }
+        ]
+      }),
     })
     .run()
 
@@ -157,14 +179,55 @@ async function seed() {
     "6": [],
   }
 
-  const projectTags = [
-    ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "RTK Query", "TanStack Table", "SocketIO"],
-    ["Next.js", "React", "TypeScript", "Tailwind CSS", "i18n", "shadcn/ui"],
-    ["Next.js", "React", "Mobx", "Ant Design"],
-    ["Next.js", "React", "Mobx", "Ant Design"],
-    ["Next.js", "React", "Mobx", "Ant Design", "SEO"],
-    ["React Native", "Redux", "HTML", "CSS", "JavaScript"],
-  ]
+  const projectDetails = {
+    "1": JSON.stringify([
+      "Experience in building & maintaining large-scale data rendering & performance:",
+      "Engineered nested virtualized table components rendering 50,000+ rows, reducing render time from ~850ms to ~220ms (~74% improvement) with stable memory usage under sustained load",
+      "Implemented cursor-based pagination handling edge cases such as insufficient data thresholds, initial fetch control, and seamless state transitions across 10,000+ paginated records",
+      "Built a non-blocking export pipeline processing 100,000+ records while preserving full UI responsiveness",
+      "Experience in building & maintaining real-time tracking:",
+      "Implemented a presence system tracking 5+ user states (online, offline, pending, and more) across concurrent sessions by SocketIO.",
+    ]),
+    "2": JSON.stringify([
+      "Experience in building & maintaining internationalization & localization:",
+      "Maintained a multi-language translation management system, enabling content editors to update UI strings across multiple languages without engineering involvement",
+      "Supported multi-location configurations with market-specific settings, currencies, and content from a single unified platform",
+      "Built bulk translation tooling with JSON import/export, unknown key detection, and validation feedback",
+      "Experience in building & maintaining payment & Back Office:",
+      "Developed an automated payment approval flow processing thousands of daily transactions, reducing manual intervention by ~60%",
+      "Built customizable sales workflows enabling regional teams to adapt CRM behavior per market without engineering involvement",
+    ]),
+    "3": JSON.stringify([
+      "Experience in building & maintaining interactive UI & logics of Learning & assessment platform:",
+      "MCQs, essay-based questions, drag-and-drop exercises, flashcards, and rich-text format responses",
+      "Provide instant results, customizable flashcards, and rich-text editor.",
+    ]),
+    "4": JSON.stringify([
+      "Experience in maintaining static UI of Management & Administration:",
+      "Student & Teacher Management: Tracks student progress, attendance, and performance.",
+      "Teaching Logs: Allows teachers to record lesson plans, notes, and teaching history.",
+      "Form-Based Data Entry: Streamlines the input of information such as student records, assignments, and feedback.",
+      "Developed SEO-optimized landing pages.",
+      "Collaborated closely with UI/UX teams using Figma for design implementation.",
+    ]),
+    "5": JSON.stringify([
+      "Maintenance of CMS & LMS for IELTS preparation.",
+      "Interactive assessment logic, student management, teaching logs, and form-based data entry for records and feedback.",
+    ]),
+    "6": JSON.stringify([
+      "Responsive mobile-first web application for Android.",
+      "Adaptive design with RESTful API integration, Redux state management, and deployment configuration on Android platform.",
+    ]),
+  }
+
+  const projectTechStack = {
+    "1": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "RTK Query", "TanStack Table", "SocketIO"],
+    "2": ["Next.js", "React", "TypeScript", "Tailwind CSS", "i18n", "shadcn/ui"],
+    "3": ["Next.js", "React", "Mobx", "Ant Design"],
+    "4": ["Next.js", "React", "Mobx", "Ant Design", "SEO"],
+    "5": ["Next.js", "React", "Mobx", "Ant Design"],
+    "6": ["React Native", "Redux", "HTML", "CSS", "JavaScript"],
+  }
 
   const projects = [
     {
@@ -218,18 +281,19 @@ async function seed() {
   ]
 
   for (const p of projects) {
-    const idx = parseInt(p.id) - 1
     db.insert(schema.projects)
       .values({
         id: p.id,
         title: p.title,
         description: p.description,
         image: p.image,
-        tags: JSON.stringify(projectTags[idx]),
+        tags: JSON.stringify(projectTechStack[p.id as keyof typeof projectTechStack]),
         githubUrl: null,
-        urls: JSON.stringify(projectUrls[p.id]),
+        urls: JSON.stringify(projectUrls[p.id as keyof typeof projectUrls]),
         category: p.category,
         order: parseInt(p.id),
+        details: projectDetails[p.id as keyof typeof projectDetails],
+        techStack: JSON.stringify(projectTechStack[p.id as keyof typeof projectTechStack]),
       })
       .run()
   }

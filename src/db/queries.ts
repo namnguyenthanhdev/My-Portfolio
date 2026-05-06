@@ -59,7 +59,13 @@ export async function getAllContent() {
     stats: stats.map((s) => ({ ...s, value: Number(s.value) })),
     chartData,
     skills,
-    projects: projects.map((p) => ({ ...p, tags: JSON.parse(p.tags), urls: JSON.parse(p.urls) })),
+    projects: projects.map((p) => ({
+      ...p,
+      tags: JSON.parse(p.tags),
+      urls: JSON.parse(p.urls),
+      details: p.details ? JSON.parse(p.details) : [],
+      techStack: p.techStack ? JSON.parse(p.techStack) : [],
+    })),
     gallery,
     testimonials,
   }

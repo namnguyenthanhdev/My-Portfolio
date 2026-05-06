@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 import useProjectFilter from "@/app/_hooks/use-project-filter"
 
 import ProjectFilters from "./project-filters"
-import ProjectGrid from "./project-grid"
+import { ProjectGrid } from "./project-grid"
 import { ProjectProductImpact } from "./project-product-impact"
 
 const ProjectHeader = () => {
@@ -24,7 +24,9 @@ const ProjectHeader = () => {
       <h2 id="projects-heading" className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
         <span className="gradient-text-accent">{t.projects.title}</span>
       </h2>
-      <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-8">{t.projects.subtitle}</p>
+      <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
+        {t.projects.subtitle}
+      </p>
     </motion.div>
   )
 }

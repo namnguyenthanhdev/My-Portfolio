@@ -26,6 +26,7 @@ export const about = sqliteTable("about", {
   headline: text("headline").notNull(),
   bio: text("bio").notNull(),
   image: text("image").notNull(),
+  education: text("education"),
 })
 
 export const stats = sqliteTable("stats", {
@@ -61,9 +62,11 @@ export const projects = sqliteTable("projects", {
   image: text("image").notNull(),
   tags: text("tags").notNull(),
   githubUrl: text("github_url"),
-  urls: text("urls").notNull().default("[]"),
+  urls: text("urls").notNull(),
   category: text("category").notNull(),
   order: integer("order").notNull(),
+  details: text("details"),
+  techStack: text("tech_stack"),
 })
 
 export const gallery = sqliteTable("gallery", {

@@ -35,7 +35,9 @@
     "subtitle": "International product platforms serving real users at scale",
     "code": "Code",
     "live": "Live",
-    "all": "All"
+    "all": "All",
+    "techStack": "Tech Stack",
+    "details": "Experience Details"
   },
   "contact": {
     "title": "Let's Work Together",
