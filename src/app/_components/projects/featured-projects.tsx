@@ -99,67 +99,81 @@ function FeaturedProjectCard({ featured, index }: { featured: FeaturedProject; i
 
   return (
     <motion.div {...fadeUp(0.1 * index)}>
-      <Card className="overflow-hidden border-border/50 bg-card">
-        <CardContent className="p-0">
-          <div className="p-6 sm:p-8 space-y-8">
-            <div className="flex flex-wrap items-start justify-between gap-3">
-              <div className="space-y-1">
-                <h3 className="text-2xl sm:text-3xl font-bold text-foreground">{productName}</h3>
-                <div className="text-sm text-muted-foreground">
-                  {cs.role} &middot; {cs.team}
-                </div>
-                {featured.project && (
-                  <p className="text-sm text-muted-foreground mt-1">{featured.project.description}</p>
-                )}
-              </div>
-              <Badge className="bg-primary/10 text-primary border-primary/20 font-medium shrink-0">
-                {cs.goal}
-              </Badge>
+      <div className="lg:grid lg:grid-cols-[1.2fr_1.8fr] lg:gap-10 lg:items-start">
+        {/* Left Column - Sticky */}
+        <div className="lg:sticky lg:top-32 space-y-5">
+          {featured.project?.image && (
+            <div className="rounded-xl overflow-hidden border border-border/50 aspect-[16/9]">
+              <img
+                src={featured.project.image}
+                alt={productName}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
+
+          <div className="space-y-3">
+            <div className="space-y-1">
+              <h3 className="text-2xl sm:text-3xl font-bold text-foreground">{productName}</h3>
+              <p className="text-sm text-muted-foreground">
+                {cs.role} &middot; {cs.team}
+              </p>
+              {featured.project && (
+                <p className="text-sm text-muted-foreground mt-1 leading-relaxed">{featured.project.description}</p>
+              )}
             </div>
 
-            {projectUrls.length > 0 && (
-              <div className="flex flex-wrap gap-2">
-                {projectUrls.map((link, i) => (
-                  <a
-                    key={i}
-                    href={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-md bg-primary/5 text-primary hover:bg-primary/10 transition-colors"
-                  >
-                    {link.label}
-                    <ExternalLink className="h-3 w-3" />
-                  </a>
-                ))}
-              </div>
-            )}
+            <Badge className="bg-primary/10 text-primary border-primary/20 font-medium">
+              {cs.goal}
+            </Badge>
+          </div>
 
-            {featured.project?.image && (
-              <div className="rounded-xl overflow-hidden border border-border/50 aspect-[16/9] max-h-48">
-                <img
-                  src={featured.project.image}
-                  alt={productName}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            )}
+          {projectUrls.length > 0 && (
+            <div className="flex flex-wrap gap-2">
+              {projectUrls.map((link, i) => (
+                <a
+                  key={i}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-xs px-2.5 py-1 rounded-md bg-primary/5 text-primary hover:bg-primary/10 transition-colors"
+                >
+                  {link.label}
+                  <ExternalLink className="h-3 w-3" />
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
 
-            {experienceSections.map((section) => (
-              <div key={section.title} className="space-y-2">
-                <h4 className="text-sm font-semibold text-foreground">{section.title}</h4>
-                <ul className="space-y-2">
-                  {section.points.map((point, i) => (
-                    <li key={i} className="flex gap-2 text-sm text-muted-foreground leading-relaxed">
-                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary/60" />
-                      {point}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+        {/* Right Column - Content */}
+        <div className="space-y-10 mt-6 lg:mt-0">
+          {/* My Experience */}
+          {experienceSections.length > 0 && (
+            <div className="space-y-6">
+              <h4 className="text-lg font-bold text-foreground">{t.projects.details}</h4>
+              {experienceSections.map((section) => (
+                <div key={section.title} className="space-y-3">
+                  <h5 className="text-sm font-semibold text-foreground">{section.title}</h5>
+                  <ul className="space-y-2.5">
+                    {section.points.map((point, i) => (
+                      <li key={i} className="flex gap-2.5 text-sm text-muted-foreground leading-relaxed">
+                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary/60" />
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Optimization for Product */}
+          <div className="space-y-6">
+            <h4 className="text-lg font-bold text-foreground">{t.projects.optimizationTitle}</h4>
 
             <div className="space-y-3">
-              <h4 className="text-sm font-semibold text-foreground uppercase tracking-wider">{t.impact.businessImpactLabel}</h4>
+              <h5 className="text-xs font-semibold text-foreground uppercase tracking-wider">{t.impact.businessImpactLabel}</h5>
               <div className="gradient-bg-button rounded-xl overflow-hidden">
                 <div className="grid grid-cols-3 divide-x divide-white/10">
                   {cs.metrics.map((m, i) => (
@@ -169,17 +183,17 @@ function FeaturedProjectCard({ featured, index }: { featured: FeaturedProject; i
               </div>
             </div>
 
-            <div className="space-y-1">
+            <div className="space-y-1.5">
               <div className="text-xs font-semibold text-red-500 uppercase tracking-wider">{t.impact.problem}</div>
               <p className="text-sm text-muted-foreground leading-relaxed">{cs.problem}</p>
             </div>
 
-            <div className="space-y-1">
+            <div className="space-y-1.5">
               <div className="text-xs font-semibold text-blue-500 uppercase tracking-wider">{t.impact.solution}</div>
               <p className="text-sm text-muted-foreground leading-relaxed">{cs.solution}</p>
             </div>
 
-            <div className="space-y-1">
+            <div className="space-y-1.5">
               <div className="text-xs font-semibold text-green-500 uppercase tracking-wider">{t.impact.result}</div>
               <p className="text-sm text-foreground leading-relaxed font-medium">{cs.result}</p>
             </div>
@@ -204,8 +218,8 @@ function FeaturedProjectCard({ featured, index }: { featured: FeaturedProject; i
               </div>
             </div>
           </div>
-        </CardContent>
-      </Card>
+        </div>
+      </div>
     </motion.div>
   )
 }

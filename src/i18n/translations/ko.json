@@ -35,7 +35,9 @@
     "subtitle": "대규모 실제 사용자에게 서비스하는 국제 제품 플랫폼",
     "code": "코드",
     "live": "라이브",
-    "all": "전체"
+    "all": "전체",
+    "details": "경험 세부사항",
+    "optimizationTitle": "제품 최적화"
   },
   "contact": {
     "title": "함께 일합시다",
