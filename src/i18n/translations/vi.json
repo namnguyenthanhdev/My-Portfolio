@@ -82,8 +82,12 @@
     "impactMetrics": "Chỉ Số Tác Động",
     "techStack": "Công Nghệ Sử Dụng",
     "whyTech": "Tại sao công nghệ này?",
+    "businessImpactLabel": "Tác Động Kinh Doanh",
+    "otherProjectsTitle": "Dự Án Khác",
+    "otherProjectsSubtitle": "Các sản phẩm và nền tảng bổ sung tôi đã xây dựng.",
     "caseStudies": [
       {
+        "projectId": "1",
         "name": "Tối Ưu Hóa Dữ Liệu FTN",
         "goal": "Tốc Độ Giao Dịch",
         "role": "Senior Frontend Engineer",
@@ -103,6 +107,7 @@
         }
       },
       {
+        "projectId": "2",
         "name": "Tự Động Hóa Gigsberg",
         "goal": "Mở Rộng Vận Hành",
         "role": "Full Stack Engineer",

@@ -11,7 +11,6 @@ import Footer from "@/app/_components/navigation/footer"
 import Navbar from "@/app/_components/navigation/navbar"
 import Projects from "@/app/_components/projects"
 import Skills from "@/app/_components/skills"
-import Stats from "@/app/_components/stats"
 
 const LocaleInit = () => (
   <script
@@ -42,9 +41,8 @@ const Home = async () => {
         <Navbar />
         <Hero />
         <About />
-        <Stats />
-        <Skills />
         <Projects />
+        <Skills />
         <Contact />
         <Footer />
       </main>

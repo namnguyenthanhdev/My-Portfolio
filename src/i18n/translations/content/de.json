@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Frontend-Entwickler | Produktentwicklung",
-    "description": "Frontend-Entwickler mit 3+ Jahren Erfahrung beim Aufbau und der Skalierung internationaler Produktplattformen. Spezialisiert auf React, Next.js, TypeScript und Hochleistungs-Datenrendering."
+    "title": "Product Front-end Engineer",
+    "description": "Ich entwickle Hochleistungsplattformen, die messbares Geschäftswachstum fördern."
   },
   "nav": {
     "about": "Über mich",
@@ -27,9 +27,17 @@
   },
   "projects": {
     "1": {
-      "title": "FTN — Globale Ticket-Wiederverkaufsplattform",
-      "description": "Ein 10 Jahre altes Produktionssystem umgewandelt. Verschachtelte virtualisierte Tabellen mit 50.000+ Zeilen entwickelt (850ms → 220ms, 74% Verbesserung). Cursor-basierte Paginierung für 10.000+ Datensätze und Echtzeit-Präsenzverfolgung via SocketIO implementiert.",
-      "category": "Enterprise"
+      "title": "Fußball Ticket Net",
+      "description": "Konvertierte ein 10 Jahre altes Produktionssystem. Entwickelte verschachtelte virtualisierte Tabellen, die 50.000+ Zeilen rendern (850ms → 220ms, 74% Verbesserung). Implementierte Cursor-basierte Paginierung für 10.000+ Datensätze und Echtzeit-Präsenzverfolgung via SocketIO.",
+      "category": "Unternehmen",
+      "details": [
+        "Erfahrung im Aufbau & der Wartung von großskaligem Daten-Rendering & Performance:",
+        "Entwickelte verschachtelte virtualisierte Tabellenkomponenten für 50.000+ Zeilen, Reduzierung der Renderzeit von ~850ms auf ~220ms (~74% Verbesserung) mit stabilem Speicherverbrauch unter Dauerlast",
+        "Implementierte Cursor-basierte Paginierung mit Behandlung von Grenzfällen wie unzureichenden Datenschwellen, initialer Fetch-Kontrolle und nahtlosen Zustandsübergängen über 10.000+ Datensätze",
+        "Baute eine nicht-blockierende Export-Pipeline zur Verarbeitung von 100.000+ Datensätzen bei vollständiger UI-Reaktionsfähigkeit",
+        "Erfahrung im Aufbau & der Wartung von Echtzeit-Tracking:",
+        "Implementierte ein Präsenzsystem zur Verfolgung von 5+ Benutzerzuständen (online, offline, ausstehend u.a.) über gleichzeitige Sitzungen via SocketIO"
+      ]
     },
     "2": {
       "title": "Gigsberg — Ticket-Verkaufs-CRM",

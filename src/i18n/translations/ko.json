@@ -82,8 +82,12 @@
     "impactMetrics": "영향 지표",
     "techStack": "기술 스택",
     "whyTech": "왜 이 기술인가?",
+    "businessImpactLabel": "비즈니스 영향",
+    "otherProjectsTitle": "기타 프로젝트",
+    "otherProjectsSubtitle": "제가 구축한 추가 제품 및 플랫폼입니다.",
     "caseStudies": [
       {
+        "projectId": "1",
         "name": "FTN 데이터 최적화",
         "goal": "거래 속도",
         "role": "시니어 프론트엔드 엔지니어",
@@ -103,6 +107,7 @@
         }
       },
       {
+        "projectId": "2",
         "name": "Gigsberg 자동화",
         "goal": "운영 확장성",
         "role": "풀스택 엔지니어",

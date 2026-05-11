@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Pembangun Front End | Kejuruteraan Produk",
-    "description": "Pembangun front-end dengan pengalaman 3+ tahun membina dan mengembangkan platform produk antarabangsa. Khusus dalam React, Next.js, TypeScript dan pengoptimuman prestasi."
+    "title": "Product Front-end Engineer",
+    "description": "Saya membina platform berprestasi tinggi yang memacu pertumbuhan perniagaan yang boleh diukur."
   },
   "nav": {
     "about": "Tentang",
@@ -27,9 +27,17 @@
   },
   "projects": {
     "1": {
-      "title": "FTN — Platform Jualan Semula Tiket Global",
-      "description": "Menukar sistem pengeluaran 10 tahun. Membina jadual tervirtual bersarang yang merender 50,000+ baris (850ms → 220ms, peningkatan 74%). Melaksanakan pagination berasaskan kursor untuk 10,000+ rekod dan penjejakan kehadiran masa nyata melalui SocketIO.",
-      "category": "Enterprise"
+      "title": "Bola Sepak Ticket Net",
+      "description": "Menukar sistem produksi 10 tahun. Membina jadual maya bersarang yang merender 50,000+ baris (850ms → 220ms, peningkatan 74%). Melaksanakan pagination berasaskan kursor untuk 10,000+ rekod dan penjejakan kehadiran masa nyata melalui SocketIO.",
+      "category": "Perusahaan",
+      "details": [
+        "Pengalaman dalam membina & menyelenggara rendering data & prestasi berskala besar:",
+        "Membina komponen jadual maya bersarang yang merender 50,000+ baris, mengurangkan masa render dari ~850ms ke ~220ms (~74% peningkatan) dengan penggunaan memori stabil di bawah beban berterusan",
+        "Melaksanakan pagination berasaskan kursor yang mengendalikan kes tepi seperti ambang data tidak mencukupi, kawalan ambilan awal, dan peralihan keadaan lancar merentasi 10,000+ rekod berpaginated",
+        "Membina saluran paip eksport tidak menyekat yang memproses 100,000+ rekod sambil mengekalkan responsiviti UI penuh",
+        "Pengalaman dalam membina & menyelenggara penjejakan masa nyata:",
+        "Melaksanakan sistem kehadiran yang menjejak 5+ keadaan pengguna (online, offline, pending, dan lain-lain) merentasi sesi serentak oleh SocketIO"
+      ]
     },
     "2": {
       "title": "Gigsberg — CRM Jualan Tiket",

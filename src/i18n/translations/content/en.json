@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Front End Developer | Product Engineering",
-    "description": "Front-end developer with 3+ years building and scaling international product platforms. Specialized in React, Next.js, TypeScript, and high-performance data rendering."
+    "title": "Product Front-end Engineer",
+    "description": "I build high-performance platforms that drive measurable business growth."
   },
   "nav": {
     "about": "About",
@@ -27,9 +27,17 @@
   },
   "projects": {
     "1": {
-      "title": "FTN — Global Ticket Resale Platform",
+      "title": "Football Ticket Net",
       "description": "Converted a 10-year production system. Engineered nested virtualized tables rendering 50,000+ rows (850ms → 220ms, 74% improvement). Implemented cursor-based pagination for 10,000+ records and real-time presence tracking via SocketIO.",
-      "category": "Enterprise"
+      "category": "Enterprise",
+      "details": [
+        "Experience in building & maintaining large-scale data rendering & performance:",
+        "Engineered nested virtualized table components rendering 50,000+ rows, reducing render time from ~850ms to ~220ms (~74% improvement) with stable memory usage under sustained load",
+        "Implemented cursor-based pagination handling edge cases such as insufficient data thresholds, initial fetch control, and seamless state transitions across 10,000+ paginated records",
+        "Built a non-blocking export pipeline processing 100,000+ records while preserving full UI responsiveness",
+        "Experience in building & maintaining real-time tracking:",
+        "Implemented a presence system tracking 5+ user states (online, offline, pending, and more) across concurrent sessions by SocketIO"
+      ]
     },
     "2": {
       "title": "Gigsberg — Ticket Sales CRM",

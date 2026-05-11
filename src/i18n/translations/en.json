@@ -84,8 +84,12 @@
     "impactMetrics": "Impact Metrics",
     "techStack": "Tech Stack",
     "whyTech": "Why this tech?",
+    "businessImpactLabel": "Business Impact",
+    "otherProjectsTitle": "Other Notable Projects",
+    "otherProjectsSubtitle": "Additional products and platforms I've built.",
     "caseStudies": [
       {
+        "projectId": "1",
         "name": "FTN Data Optimization",
         "goal": "Transaction Velocity",
         "role": "Senior Frontend Engineer",
@@ -105,6 +109,7 @@
         }
       },
       {
+        "projectId": "2",
         "name": "Gigsberg Automation",
         "goal": "Operational Scalability",
         "role": "Full Stack Engineer",

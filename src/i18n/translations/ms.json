@@ -82,8 +82,12 @@
     "impactMetrics": "Metrik Impak",
     "techStack": "Teknologi Digunakan",
     "whyTech": "Mengapa teknologi ini?",
+    "businessImpactLabel": "Impak Perniagaan",
+    "otherProjectsTitle": "Projek Lain",
+    "otherProjectsSubtitle": "Produk dan platform tambahan yang saya bina.",
     "caseStudies": [
       {
+        "projectId": "1",
         "name": "Pengoptimaan Data FTN",
         "goal": "Halaju Transaksi",
         "role": "Senior Frontend Engineer",
@@ -103,6 +107,7 @@
         }
       },
       {
+        "projectId": "2",
         "name": "Automasi Gigsberg",
         "goal": "Kebolehskalaan Operasi",
         "role": "Jurutera Full Stack",

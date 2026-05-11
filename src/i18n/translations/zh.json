@@ -82,8 +82,12 @@
     "impactMetrics": "影响指标",
     "techStack": "技术栈",
     "whyTech": "为什么选择这个技术？",
+    "businessImpactLabel": "业务影响",
+    "otherProjectsTitle": "其他项目",
+    "otherProjectsSubtitle": "我构建的其他产品和平台。",
     "caseStudies": [
       {
+        "projectId": "1",
         "name": "FTN数据优化",
         "goal": "交易速度",
         "role": "高级前端工程师",
@@ -103,6 +107,7 @@
         }
       },
       {
+        "projectId": "2",
         "name": "Gigsberg自动化",
         "goal": "运营可扩展性",
         "role": "全栈工程师",

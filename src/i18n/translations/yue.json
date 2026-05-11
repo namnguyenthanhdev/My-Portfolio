@@ -82,8 +82,12 @@
     "impactMetrics": "影響指標",
     "techStack": "技術棧",
     "whyTech": "點解用呢個技術？",
+    "businessImpactLabel": "業務影響",
+    "otherProjectsTitle": "其他項目",
+    "otherProjectsSubtitle": "我構建嘅其他產品同平台。",
     "caseStudies": [
       {
+        "projectId": "1",
         "name": "FTN數據優化",
         "goal": "交易速度",
         "role": "高級前耑工程師",
@@ -103,6 +107,7 @@
         }
       },
       {
+        "projectId": "2",
         "name": "Gigsberg自動化",
         "goal": "運營可擴展性",
         "role": "全棧工程師",

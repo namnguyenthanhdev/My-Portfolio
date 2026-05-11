@@ -82,8 +82,12 @@
     "impactMetrics": "Auswirkungen-Metriken",
     "techStack": "Tech-Stack",
     "whyTech": "Warum diese Technologie?",
+    "businessImpactLabel": "Geschäftsauswirkung",
+    "otherProjectsTitle": "Weitere Projekte",
+    "otherProjectsSubtitle": "Weitere Produkte und Plattformen, die ich entwickelt habe.",
     "caseStudies": [
       {
+        "projectId": "1",
         "name": "FTN-Datenoptimierung",
         "goal": "Transaktionsgeschwindigkeit",
         "role": "Senior Frontend Engineer",
@@ -103,6 +107,7 @@
         }
       },
       {
+        "projectId": "2",
         "name": "Gigsberg-Automatisierung",
         "goal": "Operationale Skalierbarkeit",
         "role": "Full Stack Engineer",

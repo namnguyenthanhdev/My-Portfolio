@@ -22,7 +22,7 @@ export const useLocalizedContent = (ct: Record<string, unknown>) => {
   return useMemo(() => {
     const nav = ct.nav as Record<string, string>
     const stats = ct.stats as Record<string, string>
-    const projects = ct.projects as Record<string, { title?: string; description?: string; category?: string }>
+    const projects = ct.projects as Record<string, { title?: string; description?: string; category?: string; details?: string[] }>
     const testimonials = ct.testimonials as Record<string, { name?: string; role?: string; text?: string }>
     const site = ct.site as { title: string; description: string }
     const about = ct.about as { headline: string; bio: string[] }
@@ -44,6 +44,7 @@ export const useLocalizedContent = (ct: Record<string, unknown>) => {
         title: t.title || p.title,
         description: t.description || p.description,
         category: t.category || p.category,
+        details: t.details || p.details,
       }
     })
 

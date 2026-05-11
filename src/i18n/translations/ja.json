@@ -82,8 +82,12 @@
     "impactMetrics": "インパクト指標",
     "techStack": "技術スタック",
     "whyTech": "なぜこの技術？",
+    "businessImpactLabel": "ビジネスインパクト",
+    "otherProjectsTitle": "その他のプロジェクト",
+    "otherProjectsSubtitle": "私が構築した追加の製品とプラットフォーム。",
     "caseStudies": [
       {
+        "projectId": "1",
         "name": "FTNデータ最適化",
         "goal": "取引速度",
         "role": "シニアフロントエンドエンジニア",
@@ -103,6 +107,7 @@
         }
       },
       {
+        "projectId": "2",
         "name": "Gigsberg自動化",
         "goal": "運用スケーラビリティ",
         "role": "フルスタックエンジニア",

@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Lập Trình Viên Front End | Kỹ Thuật Sản Phẩm",
-    "description": "Lập trình viên front-end với 3+ năm kinh nghiệm xây dựng và mở rộng nền tảng sản phẩm quốc tế. Chuyên về React, Next.js, TypeScript và tối ưu hiệu năng."
+    "title": "Kỹ Sư Front-End Sản Phẩm",
+    "description": "Tôi xây dựng các nền tảng hiệu suất cao giúp thúc đẩy tăng trưởng kinh doanh có thể đo lường."
   },
   "nav": {
     "about": "Giới thiệu",
@@ -27,9 +27,17 @@
   },
   "projects": {
     "1": {
-      "title": "FTN — Nền Tảng Bán Lại Vé Toàn Cầu",
+      "title": "Bóng Đá Ticket Net",
       "description": "Chuyển đổi hệ thống production 10 năm tuổi. Xây dựng bảng ảo lồng nhau rendering 50,000+ dòng (850ms → 220ms, cải thiện 74%). Triển khai phân trang cursor-based cho 10,000+ bản ghi và theo dõi hiện diện thời gian thực qua SocketIO.",
-      "category": "Doanh nghiệp"
+      "category": "Doanh nghiệp",
+      "details": [
+        "Kinh nghiệm xây dựng & duy trì hiệu suất render dữ liệu quy mô lớn:",
+        "Xây dựng bảng ảo lồng nhau xử lý 50,000+ dòng, giảm thời gian render từ ~850ms xuống ~220ms (~74%) với mức sử dụng bộ nhớ ổn định dưới tải liên tục",
+        "Triển khai phân trang cursor-based xử lý các trường hợp biên như ngưỡng dữ liệu không đủ, kiểm soát lần tải đầu và chuyển đổi trạng thái liền mạch trên 10,000+ bản ghi",
+        "Xây dựng pipeline xuất dữ liệu không chặn xử lý 100,000+ bản ghi mà vẫn giữ UI phản hồi đầy đủ",
+        "Kinh nghiệm xây dựng & duy trì theo dõi thời gian thực:",
+        "Triển khai hệ thống theo dõi trạng thái 5+ trạng thái người dùng (online, offline, pending, v.v.) trên các phiên đồng thời qua SocketIO"
+      ]
     },
     "2": {
       "title": "Gigsberg — CRM Bán Vé",
